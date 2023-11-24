@@ -1,0 +1,2476 @@
+24/11/2023 02:44:23PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 02:44:23PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 02:44:23PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 02:44:23PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 02:45:19PM INFO select pg_catalog.version()
+24/11/2023 02:45:19PM INFO [raw sql] ()
+24/11/2023 02:45:19PM INFO select current_schema()
+24/11/2023 02:45:19PM INFO [raw sql] ()
+24/11/2023 02:45:19PM INFO show standard_conforming_strings
+24/11/2023 02:45:19PM INFO [raw sql] ()
+24/11/2023 02:45:19PM INFO BEGIN (implicit)
+24/11/2023 02:45:19PM INFO INSERT INTO users (first_name, last_name, email, password, username, created_on) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, CURRENT_TIMESTAMP) RETURNING users.id, users.created_on
+24/11/2023 02:45:19PM INFO [generated in 0.01137s] ('dfghj', 'string', 'string@gmail.com', 'Schatz', 'papi')
+24/11/2023 02:45:19PM INFO COMMIT
+24/11/2023 02:46:37PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 02:46:37PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 02:46:37PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 02:46:37PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 02:47:31PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 02:47:31PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 02:47:31PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 02:47:31PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 02:48:09PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 02:48:09PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 02:48:09PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 02:48:09PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 02:48:45PM DEBUG Calling on_field_start with no data
+24/11/2023 02:48:45PM DEBUG Calling on_field_name with data[0:10]
+24/11/2023 02:48:45PM DEBUG Calling on_field_end with no data
+24/11/2023 02:48:45PM DEBUG Calling on_field_start with no data
+24/11/2023 02:48:45PM DEBUG Calling on_field_name with data[12:20]
+24/11/2023 02:48:45PM DEBUG Calling on_field_data with data[21:25]
+24/11/2023 02:48:45PM DEBUG Calling on_field_end with no data
+24/11/2023 02:48:45PM DEBUG Calling on_field_start with no data
+24/11/2023 02:48:45PM DEBUG Calling on_field_name with data[26:34]
+24/11/2023 02:48:45PM DEBUG Calling on_field_data with data[35:41]
+24/11/2023 02:48:45PM DEBUG Calling on_field_end with no data
+24/11/2023 02:48:45PM DEBUG Calling on_field_start with no data
+24/11/2023 02:48:45PM DEBUG Calling on_field_name with data[42:47]
+24/11/2023 02:48:45PM DEBUG Calling on_field_end with no data
+24/11/2023 02:48:45PM DEBUG Calling on_field_start with no data
+24/11/2023 02:48:45PM DEBUG Calling on_field_name with data[49:58]
+24/11/2023 02:48:45PM DEBUG Calling on_field_end with no data
+24/11/2023 02:48:45PM DEBUG Calling on_field_start with no data
+24/11/2023 02:48:45PM DEBUG Calling on_field_name with data[60:73]
+24/11/2023 02:48:45PM DEBUG Calling on_field_end with no data
+24/11/2023 02:48:45PM DEBUG Calling on_end with no data
+24/11/2023 02:48:45PM INFO select pg_catalog.version()
+24/11/2023 02:48:45PM INFO [raw sql] ()
+24/11/2023 02:48:45PM INFO select current_schema()
+24/11/2023 02:48:45PM INFO [raw sql] ()
+24/11/2023 02:48:45PM INFO show standard_conforming_strings
+24/11/2023 02:48:45PM INFO [raw sql] ()
+24/11/2023 02:48:45PM INFO BEGIN (implicit)
+24/11/2023 02:48:45PM INFO SELECT users.id, users.first_name, users.last_name, users.email, users.password, users.username, users.created_on 
+FROM users 
+WHERE users.username = $1::VARCHAR
+24/11/2023 02:48:45PM INFO [generated in 0.00075s] ('papi',)
+24/11/2023 02:48:45PM INFO ROLLBACK
+24/11/2023 02:51:30PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 02:51:30PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 02:51:30PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 02:51:30PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 02:51:32PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 02:51:32PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 02:51:32PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 02:51:32PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 02:51:40PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 02:51:40PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 02:51:40PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 02:51:40PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 02:51:42PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 02:51:42PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 02:51:42PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 02:51:43PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 02:51:47PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 02:51:47PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 02:51:47PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 02:51:47PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 02:51:50PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 02:51:50PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 02:51:50PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 02:51:50PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 02:51:52PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 02:51:52PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 02:51:52PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 02:51:52PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 02:51:57PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 02:51:57PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 02:51:57PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 02:51:57PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 02:52:30PM DEBUG Calling on_field_start with no data
+24/11/2023 02:52:30PM DEBUG Calling on_field_name with data[0:10]
+24/11/2023 02:52:30PM DEBUG Calling on_field_end with no data
+24/11/2023 02:52:30PM DEBUG Calling on_field_start with no data
+24/11/2023 02:52:30PM DEBUG Calling on_field_name with data[12:20]
+24/11/2023 02:52:30PM DEBUG Calling on_field_data with data[21:25]
+24/11/2023 02:52:30PM DEBUG Calling on_field_end with no data
+24/11/2023 02:52:30PM DEBUG Calling on_field_start with no data
+24/11/2023 02:52:30PM DEBUG Calling on_field_name with data[26:34]
+24/11/2023 02:52:30PM DEBUG Calling on_field_data with data[35:41]
+24/11/2023 02:52:30PM DEBUG Calling on_field_end with no data
+24/11/2023 02:52:30PM DEBUG Calling on_field_start with no data
+24/11/2023 02:52:30PM DEBUG Calling on_field_name with data[42:47]
+24/11/2023 02:52:30PM DEBUG Calling on_field_end with no data
+24/11/2023 02:52:30PM DEBUG Calling on_field_start with no data
+24/11/2023 02:52:30PM DEBUG Calling on_field_name with data[49:58]
+24/11/2023 02:52:30PM DEBUG Calling on_field_end with no data
+24/11/2023 02:52:30PM DEBUG Calling on_field_start with no data
+24/11/2023 02:52:30PM DEBUG Calling on_field_name with data[60:73]
+24/11/2023 02:52:30PM DEBUG Calling on_field_end with no data
+24/11/2023 02:52:30PM DEBUG Calling on_end with no data
+24/11/2023 02:52:30PM INFO select pg_catalog.version()
+24/11/2023 02:52:30PM INFO [raw sql] ()
+24/11/2023 02:52:30PM INFO select current_schema()
+24/11/2023 02:52:30PM INFO [raw sql] ()
+24/11/2023 02:52:30PM INFO show standard_conforming_strings
+24/11/2023 02:52:30PM INFO [raw sql] ()
+24/11/2023 02:52:30PM INFO BEGIN (implicit)
+24/11/2023 02:52:30PM INFO SELECT users.id, users.first_name, users.last_name, users.email, users.password, users.username, users.created_on 
+FROM users 
+WHERE users.username = $1::VARCHAR
+24/11/2023 02:52:30PM INFO [generated in 0.00097s] ('papi',)
+24/11/2023 02:52:30PM INFO ROLLBACK
+24/11/2023 02:54:35PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 02:54:35PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 02:54:35PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 02:54:35PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 02:54:41PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 02:54:41PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 02:54:41PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 02:54:42PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 02:54:48PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 02:54:48PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 02:54:48PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 02:54:48PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 02:54:50PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 02:54:50PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 02:54:50PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 02:54:50PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 02:54:52PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 02:54:52PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 02:54:52PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 02:54:52PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 02:54:57PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 02:54:57PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 02:54:57PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 02:54:57PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 02:55:23PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 02:55:23PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 02:55:23PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 02:55:23PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 02:55:25PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 02:55:25PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 02:55:25PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 02:55:25PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 02:55:29PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 02:55:29PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 02:55:29PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 02:55:29PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 02:55:31PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 02:55:31PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 02:55:31PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 02:55:31PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 02:55:34PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 02:55:34PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 02:55:34PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 02:55:35PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 02:55:38PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 02:55:38PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 02:55:38PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 02:55:38PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 02:55:42PM DEBUG Calling on_field_start with no data
+24/11/2023 02:55:42PM DEBUG Calling on_field_name with data[0:10]
+24/11/2023 02:55:42PM DEBUG Calling on_field_end with no data
+24/11/2023 02:55:42PM DEBUG Calling on_field_start with no data
+24/11/2023 02:55:42PM DEBUG Calling on_field_name with data[12:20]
+24/11/2023 02:55:42PM DEBUG Calling on_field_data with data[21:25]
+24/11/2023 02:55:42PM DEBUG Calling on_field_end with no data
+24/11/2023 02:55:42PM DEBUG Calling on_field_start with no data
+24/11/2023 02:55:42PM DEBUG Calling on_field_name with data[26:34]
+24/11/2023 02:55:42PM DEBUG Calling on_field_data with data[35:41]
+24/11/2023 02:55:42PM DEBUG Calling on_field_end with no data
+24/11/2023 02:55:42PM DEBUG Calling on_field_start with no data
+24/11/2023 02:55:42PM DEBUG Calling on_field_name with data[42:47]
+24/11/2023 02:55:42PM DEBUG Calling on_field_end with no data
+24/11/2023 02:55:42PM DEBUG Calling on_field_start with no data
+24/11/2023 02:55:42PM DEBUG Calling on_field_name with data[49:58]
+24/11/2023 02:55:42PM DEBUG Calling on_field_end with no data
+24/11/2023 02:55:42PM DEBUG Calling on_field_start with no data
+24/11/2023 02:55:42PM DEBUG Calling on_field_name with data[60:73]
+24/11/2023 02:55:42PM DEBUG Calling on_field_end with no data
+24/11/2023 02:55:42PM DEBUG Calling on_end with no data
+24/11/2023 02:55:43PM INFO select pg_catalog.version()
+24/11/2023 02:55:43PM INFO [raw sql] ()
+24/11/2023 02:55:43PM INFO select current_schema()
+24/11/2023 02:55:43PM INFO [raw sql] ()
+24/11/2023 02:55:43PM INFO show standard_conforming_strings
+24/11/2023 02:55:43PM INFO [raw sql] ()
+24/11/2023 02:55:43PM INFO BEGIN (implicit)
+24/11/2023 02:55:43PM INFO SELECT users.id, users.first_name, users.last_name, users.email, users.password, users.username, users.created_on 
+FROM users 
+WHERE users.username = $1::VARCHAR
+24/11/2023 02:55:43PM INFO [generated in 0.00088s] ('papi',)
+24/11/2023 02:55:43PM INFO ROLLBACK
+24/11/2023 02:58:46PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 02:58:46PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 02:58:46PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 02:58:46PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 02:59:05PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 02:59:05PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 02:59:05PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 02:59:05PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 02:59:27PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 02:59:27PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 02:59:27PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 02:59:27PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 02:59:55PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 02:59:55PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 02:59:55PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 02:59:55PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:00:42PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:00:42PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:00:42PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:00:42PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:00:44PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:00:44PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:00:44PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:00:44PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:00:53PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:00:53PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:00:53PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:00:53PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:00:54PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:00:54PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:00:54PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:00:54PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:00:56PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:00:56PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:00:56PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:00:56PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:01:00PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:01:00PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:01:00PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:01:00PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:01:02PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:01:02PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:01:02PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:01:02PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:01:20PM DEBUG Calling on_field_start with no data
+24/11/2023 03:01:21PM DEBUG Calling on_field_name with data[0:10]
+24/11/2023 03:01:21PM DEBUG Calling on_field_end with no data
+24/11/2023 03:01:21PM DEBUG Calling on_field_start with no data
+24/11/2023 03:01:21PM DEBUG Calling on_field_name with data[12:20]
+24/11/2023 03:01:21PM DEBUG Calling on_field_data with data[21:25]
+24/11/2023 03:01:21PM DEBUG Calling on_field_end with no data
+24/11/2023 03:01:21PM DEBUG Calling on_field_start with no data
+24/11/2023 03:01:21PM DEBUG Calling on_field_name with data[26:34]
+24/11/2023 03:01:21PM DEBUG Calling on_field_data with data[35:41]
+24/11/2023 03:01:21PM DEBUG Calling on_field_end with no data
+24/11/2023 03:01:21PM DEBUG Calling on_field_start with no data
+24/11/2023 03:01:21PM DEBUG Calling on_field_name with data[42:47]
+24/11/2023 03:01:21PM DEBUG Calling on_field_end with no data
+24/11/2023 03:01:21PM DEBUG Calling on_field_start with no data
+24/11/2023 03:01:21PM DEBUG Calling on_field_name with data[49:58]
+24/11/2023 03:01:21PM DEBUG Calling on_field_end with no data
+24/11/2023 03:01:21PM DEBUG Calling on_field_start with no data
+24/11/2023 03:01:21PM DEBUG Calling on_field_name with data[60:73]
+24/11/2023 03:01:21PM DEBUG Calling on_field_end with no data
+24/11/2023 03:01:21PM DEBUG Calling on_end with no data
+24/11/2023 03:01:21PM INFO select pg_catalog.version()
+24/11/2023 03:01:21PM INFO [raw sql] ()
+24/11/2023 03:01:21PM INFO select current_schema()
+24/11/2023 03:01:21PM INFO [raw sql] ()
+24/11/2023 03:01:21PM INFO show standard_conforming_strings
+24/11/2023 03:01:21PM INFO [raw sql] ()
+24/11/2023 03:01:21PM INFO BEGIN (implicit)
+24/11/2023 03:01:21PM INFO SELECT users.id, users.first_name, users.last_name, users.email, users.password, users.username, users.created_on 
+FROM users 
+WHERE users.username = $1::VARCHAR
+24/11/2023 03:01:21PM INFO [generated in 0.00087s] ('papi',)
+24/11/2023 03:01:21PM INFO ROLLBACK
+24/11/2023 03:03:02PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:03:02PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:03:02PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:03:02PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:03:10PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:03:10PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:03:10PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:03:10PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:03:32PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:03:32PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:03:32PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:03:32PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:03:45PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:03:45PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:03:45PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:03:45PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:04:06PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:04:06PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:04:06PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:04:06PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:04:07PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:04:07PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:04:07PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:04:07PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:04:09PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:04:09PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:04:09PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:04:09PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:06:07PM DEBUG Calling on_field_start with no data
+24/11/2023 03:06:07PM DEBUG Calling on_field_name with data[0:10]
+24/11/2023 03:06:07PM DEBUG Calling on_field_end with no data
+24/11/2023 03:06:07PM DEBUG Calling on_field_start with no data
+24/11/2023 03:06:07PM DEBUG Calling on_field_name with data[12:20]
+24/11/2023 03:06:07PM DEBUG Calling on_field_data with data[21:25]
+24/11/2023 03:06:07PM DEBUG Calling on_field_end with no data
+24/11/2023 03:06:07PM DEBUG Calling on_field_start with no data
+24/11/2023 03:06:07PM DEBUG Calling on_field_name with data[26:34]
+24/11/2023 03:06:07PM DEBUG Calling on_field_data with data[35:41]
+24/11/2023 03:06:07PM DEBUG Calling on_field_end with no data
+24/11/2023 03:06:07PM DEBUG Calling on_field_start with no data
+24/11/2023 03:06:07PM DEBUG Calling on_field_name with data[42:47]
+24/11/2023 03:06:07PM DEBUG Calling on_field_end with no data
+24/11/2023 03:06:07PM DEBUG Calling on_field_start with no data
+24/11/2023 03:06:07PM DEBUG Calling on_field_name with data[49:58]
+24/11/2023 03:06:07PM DEBUG Calling on_field_end with no data
+24/11/2023 03:06:07PM DEBUG Calling on_field_start with no data
+24/11/2023 03:06:07PM DEBUG Calling on_field_name with data[60:73]
+24/11/2023 03:06:07PM DEBUG Calling on_field_end with no data
+24/11/2023 03:06:07PM DEBUG Calling on_end with no data
+24/11/2023 03:06:07PM INFO select pg_catalog.version()
+24/11/2023 03:06:07PM INFO [raw sql] ()
+24/11/2023 03:06:07PM INFO select current_schema()
+24/11/2023 03:06:07PM INFO [raw sql] ()
+24/11/2023 03:06:07PM INFO show standard_conforming_strings
+24/11/2023 03:06:07PM INFO [raw sql] ()
+24/11/2023 03:06:07PM INFO BEGIN (implicit)
+24/11/2023 03:06:07PM INFO SELECT users.id, users.first_name, users.last_name, users.email, users.password, users.username, users.created_on 
+FROM users 
+WHERE users.username = $1::VARCHAR
+24/11/2023 03:06:07PM INFO [generated in 0.00162s] ('papi',)
+24/11/2023 03:06:07PM INFO ROLLBACK
+24/11/2023 03:27:19PM DEBUG detected 'bcrypt' backend, version '4.0.1'
+24/11/2023 03:27:19PM DEBUG 'bcrypt' backend lacks $2$ support, enabling workaround
+24/11/2023 03:27:54PM DEBUG Calling on_field_start with no data
+24/11/2023 03:27:54PM DEBUG Calling on_field_name with data[0:10]
+24/11/2023 03:27:54PM DEBUG Calling on_field_end with no data
+24/11/2023 03:27:54PM DEBUG Calling on_field_start with no data
+24/11/2023 03:27:54PM DEBUG Calling on_field_name with data[12:20]
+24/11/2023 03:27:54PM DEBUG Calling on_field_data with data[21:27]
+24/11/2023 03:27:54PM DEBUG Calling on_field_end with no data
+24/11/2023 03:27:54PM DEBUG Calling on_field_start with no data
+24/11/2023 03:27:54PM DEBUG Calling on_field_name with data[28:36]
+24/11/2023 03:27:54PM DEBUG Calling on_field_data with data[37:41]
+24/11/2023 03:27:54PM DEBUG Calling on_field_end with no data
+24/11/2023 03:27:54PM DEBUG Calling on_field_start with no data
+24/11/2023 03:27:54PM DEBUG Calling on_field_name with data[42:47]
+24/11/2023 03:27:54PM DEBUG Calling on_field_end with no data
+24/11/2023 03:27:54PM DEBUG Calling on_field_start with no data
+24/11/2023 03:27:54PM DEBUG Calling on_field_name with data[49:58]
+24/11/2023 03:27:54PM DEBUG Calling on_field_end with no data
+24/11/2023 03:27:54PM DEBUG Calling on_field_start with no data
+24/11/2023 03:27:54PM DEBUG Calling on_field_name with data[60:73]
+24/11/2023 03:27:54PM DEBUG Calling on_field_end with no data
+24/11/2023 03:27:54PM DEBUG Calling on_end with no data
+24/11/2023 03:27:54PM INFO BEGIN (implicit)
+24/11/2023 03:27:54PM INFO SELECT users.id, users.first_name, users.last_name, users.email, users.password, users.username, users.created_on 
+FROM users 
+WHERE users.username = $1::VARCHAR
+24/11/2023 03:27:54PM INFO [cached since 1307s ago] ('Schatz',)
+24/11/2023 03:27:54PM INFO ROLLBACK
+24/11/2023 03:35:32PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:35:32PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:35:32PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:35:32PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:35:38PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:35:38PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:35:38PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:35:39PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:35:50PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:35:50PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:35:50PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:35:51PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:35:52PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:35:52PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:35:52PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:35:52PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:40:03PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:40:03PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:40:03PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:40:03PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:40:45PM INFO select pg_catalog.version()
+24/11/2023 03:40:45PM INFO [raw sql] ()
+24/11/2023 03:40:45PM INFO select current_schema()
+24/11/2023 03:40:45PM INFO [raw sql] ()
+24/11/2023 03:40:45PM INFO show standard_conforming_strings
+24/11/2023 03:40:45PM INFO [raw sql] ()
+24/11/2023 03:40:45PM INFO BEGIN (implicit)
+24/11/2023 03:40:45PM INFO INSERT INTO users (first_name, last_name, email, password, username, created_on) VALUES ($1::VARCHAR, $2::VARCHAR, $3::VARCHAR, $4::VARCHAR, $5::VARCHAR, CURRENT_TIMESTAMP) RETURNING users.id, users.created_on
+24/11/2023 03:40:45PM INFO [generated in 0.00081s] ('string', 'string', 'string', 'string', 'string')
+24/11/2023 03:40:45PM INFO COMMIT
+24/11/2023 03:41:04PM DEBUG detected 'bcrypt' backend, version '4.0.1'
+24/11/2023 03:41:04PM DEBUG 'bcrypt' backend lacks $2$ support, enabling workaround
+24/11/2023 03:41:30PM DEBUG Calling on_field_start with no data
+24/11/2023 03:41:30PM DEBUG Calling on_field_name with data[0:10]
+24/11/2023 03:41:30PM DEBUG Calling on_field_end with no data
+24/11/2023 03:41:30PM DEBUG Calling on_field_start with no data
+24/11/2023 03:41:30PM DEBUG Calling on_field_name with data[12:20]
+24/11/2023 03:41:30PM DEBUG Calling on_field_data with data[21:27]
+24/11/2023 03:41:30PM DEBUG Calling on_field_end with no data
+24/11/2023 03:41:30PM DEBUG Calling on_field_start with no data
+24/11/2023 03:41:30PM DEBUG Calling on_field_name with data[28:36]
+24/11/2023 03:41:30PM DEBUG Calling on_field_data with data[37:43]
+24/11/2023 03:41:30PM DEBUG Calling on_field_end with no data
+24/11/2023 03:41:30PM DEBUG Calling on_field_start with no data
+24/11/2023 03:41:30PM DEBUG Calling on_field_name with data[44:49]
+24/11/2023 03:41:30PM DEBUG Calling on_field_end with no data
+24/11/2023 03:41:30PM DEBUG Calling on_field_start with no data
+24/11/2023 03:41:30PM DEBUG Calling on_field_name with data[51:60]
+24/11/2023 03:41:30PM DEBUG Calling on_field_end with no data
+24/11/2023 03:41:30PM DEBUG Calling on_field_start with no data
+24/11/2023 03:41:30PM DEBUG Calling on_field_name with data[62:75]
+24/11/2023 03:41:30PM DEBUG Calling on_field_end with no data
+24/11/2023 03:41:30PM DEBUG Calling on_end with no data
+24/11/2023 03:41:30PM INFO BEGIN (implicit)
+24/11/2023 03:41:30PM INFO SELECT users.id, users.first_name, users.last_name, users.email, users.password, users.username, users.created_on 
+FROM users 
+WHERE users.username = $1::VARCHAR
+24/11/2023 03:41:30PM INFO [generated in 0.00137s] ('string',)
+24/11/2023 03:41:30PM INFO ROLLBACK
+24/11/2023 03:43:00PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:43:00PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:43:00PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:43:00PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:43:36PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:43:36PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:43:36PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:43:36PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:43:49PM DEBUG Calling on_field_start with no data
+24/11/2023 03:43:49PM DEBUG Calling on_field_name with data[0:10]
+24/11/2023 03:43:49PM DEBUG Calling on_field_end with no data
+24/11/2023 03:43:49PM DEBUG Calling on_field_start with no data
+24/11/2023 03:43:49PM DEBUG Calling on_field_name with data[12:20]
+24/11/2023 03:43:49PM DEBUG Calling on_field_data with data[21:27]
+24/11/2023 03:43:49PM DEBUG Calling on_field_end with no data
+24/11/2023 03:43:49PM DEBUG Calling on_field_start with no data
+24/11/2023 03:43:49PM DEBUG Calling on_field_name with data[28:36]
+24/11/2023 03:43:49PM DEBUG Calling on_field_data with data[37:43]
+24/11/2023 03:43:49PM DEBUG Calling on_field_end with no data
+24/11/2023 03:43:49PM DEBUG Calling on_field_start with no data
+24/11/2023 03:43:49PM DEBUG Calling on_field_name with data[44:49]
+24/11/2023 03:43:49PM DEBUG Calling on_field_end with no data
+24/11/2023 03:43:49PM DEBUG Calling on_field_start with no data
+24/11/2023 03:43:49PM DEBUG Calling on_field_name with data[51:60]
+24/11/2023 03:43:49PM DEBUG Calling on_field_end with no data
+24/11/2023 03:43:49PM DEBUG Calling on_field_start with no data
+24/11/2023 03:43:49PM DEBUG Calling on_field_name with data[62:75]
+24/11/2023 03:43:49PM DEBUG Calling on_field_end with no data
+24/11/2023 03:43:49PM DEBUG Calling on_end with no data
+24/11/2023 03:43:49PM INFO select pg_catalog.version()
+24/11/2023 03:43:49PM INFO [raw sql] ()
+24/11/2023 03:43:49PM INFO select current_schema()
+24/11/2023 03:43:49PM INFO [raw sql] ()
+24/11/2023 03:43:49PM INFO show standard_conforming_strings
+24/11/2023 03:43:49PM INFO [raw sql] ()
+24/11/2023 03:43:49PM INFO BEGIN (implicit)
+24/11/2023 03:43:49PM INFO SELECT users.id, users.first_name, users.last_name, users.email, users.password, users.username, users.created_on 
+FROM users 
+WHERE users.username = $1::VARCHAR
+24/11/2023 03:43:49PM INFO [generated in 0.00066s] ('string',)
+24/11/2023 03:43:49PM INFO ROLLBACK
+24/11/2023 03:46:44PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:46:44PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:46:44PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:46:44PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:46:46PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:46:46PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:46:46PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:46:47PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:47:22PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:47:22PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:47:22PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:47:22PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:47:27PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:47:27PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:47:27PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:47:27PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:49:06PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:49:06PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:49:06PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:49:07PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:49:18PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:49:18PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:49:18PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:49:19PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:49:49PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:49:49PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:49:49PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:49:49PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:49:51PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:49:51PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:49:51PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:49:51PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:49:55PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:49:55PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:49:55PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:49:55PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:49:56PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:49:56PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:49:56PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:49:56PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:50:24PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:50:24PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:50:24PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:50:24PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:50:28PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:50:28PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:50:28PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:50:28PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:50:41PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:50:41PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:50:41PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:50:41PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:50:44PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:50:44PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:50:44PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:50:44PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:50:53PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:50:53PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:50:53PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:50:53PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:50:56PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:50:56PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:50:56PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:50:56PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:51:44PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:51:44PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:51:44PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:51:44PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:51:52PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:51:52PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:51:52PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:51:52PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:52:06PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:52:06PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:52:06PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:52:06PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:52:48PM DEBUG Calling on_field_start with no data
+24/11/2023 03:52:48PM DEBUG Calling on_field_name with data[0:10]
+24/11/2023 03:52:48PM DEBUG Calling on_field_end with no data
+24/11/2023 03:52:48PM DEBUG Calling on_field_start with no data
+24/11/2023 03:52:48PM DEBUG Calling on_field_name with data[12:20]
+24/11/2023 03:52:48PM DEBUG Calling on_field_data with data[21:27]
+24/11/2023 03:52:48PM DEBUG Calling on_field_end with no data
+24/11/2023 03:52:48PM DEBUG Calling on_field_start with no data
+24/11/2023 03:52:48PM DEBUG Calling on_field_name with data[28:36]
+24/11/2023 03:52:48PM DEBUG Calling on_field_data with data[37:43]
+24/11/2023 03:52:48PM DEBUG Calling on_field_end with no data
+24/11/2023 03:52:48PM DEBUG Calling on_field_start with no data
+24/11/2023 03:52:48PM DEBUG Calling on_field_name with data[44:49]
+24/11/2023 03:52:48PM DEBUG Calling on_field_end with no data
+24/11/2023 03:52:48PM DEBUG Calling on_field_start with no data
+24/11/2023 03:52:48PM DEBUG Calling on_field_name with data[51:60]
+24/11/2023 03:52:48PM DEBUG Calling on_field_end with no data
+24/11/2023 03:52:48PM DEBUG Calling on_field_start with no data
+24/11/2023 03:52:48PM DEBUG Calling on_field_name with data[62:75]
+24/11/2023 03:52:48PM DEBUG Calling on_field_end with no data
+24/11/2023 03:52:48PM DEBUG Calling on_end with no data
+24/11/2023 03:52:48PM INFO select pg_catalog.version()
+24/11/2023 03:52:48PM INFO [raw sql] ()
+24/11/2023 03:52:48PM INFO select current_schema()
+24/11/2023 03:52:48PM INFO [raw sql] ()
+24/11/2023 03:52:48PM INFO show standard_conforming_strings
+24/11/2023 03:52:48PM INFO [raw sql] ()
+24/11/2023 03:52:48PM INFO BEGIN (implicit)
+24/11/2023 03:52:48PM INFO SELECT login.id, login.username, login.password 
+FROM login 
+WHERE login.username = $1::VARCHAR
+24/11/2023 03:52:48PM INFO [generated in 0.00186s] ('string',)
+24/11/2023 03:52:48PM INFO ROLLBACK
+24/11/2023 03:54:25PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:54:25PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:54:25PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:54:26PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:54:28PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:54:28PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:54:28PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:54:28PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:54:30PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:54:30PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:54:30PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:54:30PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:54:31PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:54:31PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:54:31PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:54:32PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:54:35PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:54:35PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:54:35PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:54:35PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:54:36PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:54:36PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:54:36PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:54:36PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:54:40PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:54:40PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:54:40PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:54:40PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:54:44PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:54:44PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:54:44PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:54:44PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:54:47PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:54:47PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:54:47PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:54:47PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:55:03PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:55:03PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:55:03PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:55:03PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:55:06PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:55:06PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:55:06PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:55:06PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:55:08PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:55:08PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:55:08PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:55:08PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:55:09PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:55:09PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:55:09PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:55:09PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:55:13PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:55:13PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:55:13PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:55:14PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:55:15PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:55:15PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:55:15PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:55:15PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:55:23PM DEBUG Calling on_field_start with no data
+24/11/2023 03:55:23PM DEBUG Calling on_field_name with data[0:10]
+24/11/2023 03:55:23PM DEBUG Calling on_field_end with no data
+24/11/2023 03:55:23PM DEBUG Calling on_field_start with no data
+24/11/2023 03:55:23PM DEBUG Calling on_field_name with data[12:20]
+24/11/2023 03:55:23PM DEBUG Calling on_field_data with data[21:27]
+24/11/2023 03:55:23PM DEBUG Calling on_field_end with no data
+24/11/2023 03:55:23PM DEBUG Calling on_field_start with no data
+24/11/2023 03:55:23PM DEBUG Calling on_field_name with data[28:36]
+24/11/2023 03:55:23PM DEBUG Calling on_field_data with data[37:43]
+24/11/2023 03:55:23PM DEBUG Calling on_field_end with no data
+24/11/2023 03:55:23PM DEBUG Calling on_field_start with no data
+24/11/2023 03:55:23PM DEBUG Calling on_field_name with data[44:49]
+24/11/2023 03:55:23PM DEBUG Calling on_field_end with no data
+24/11/2023 03:55:23PM DEBUG Calling on_field_start with no data
+24/11/2023 03:55:23PM DEBUG Calling on_field_name with data[51:60]
+24/11/2023 03:55:23PM DEBUG Calling on_field_end with no data
+24/11/2023 03:55:23PM DEBUG Calling on_field_start with no data
+24/11/2023 03:55:23PM DEBUG Calling on_field_name with data[62:75]
+24/11/2023 03:55:23PM DEBUG Calling on_field_end with no data
+24/11/2023 03:55:23PM DEBUG Calling on_end with no data
+24/11/2023 03:55:23PM INFO select pg_catalog.version()
+24/11/2023 03:55:23PM INFO [raw sql] ()
+24/11/2023 03:55:23PM INFO select current_schema()
+24/11/2023 03:55:23PM INFO [raw sql] ()
+24/11/2023 03:55:23PM INFO show standard_conforming_strings
+24/11/2023 03:55:23PM INFO [raw sql] ()
+24/11/2023 03:55:23PM INFO BEGIN (implicit)
+24/11/2023 03:55:23PM INFO SELECT login.id, login.username, login.password 
+FROM login 
+WHERE login.username = $1::VARCHAR
+24/11/2023 03:55:23PM INFO [generated in 0.00105s] ('string',)
+24/11/2023 03:55:23PM INFO ROLLBACK
+24/11/2023 03:59:01PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:59:01PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:59:01PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:59:01PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:59:14PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:59:14PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:59:14PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:59:14PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 03:59:34PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 03:59:34PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 03:59:34PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 03:59:34PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 04:00:02PM DEBUG detected 'bcrypt' backend, version '4.0.1'
+24/11/2023 04:00:02PM DEBUG 'bcrypt' backend lacks $2$ support, enabling workaround
+24/11/2023 04:01:47PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 04:01:47PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 04:01:47PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 04:01:47PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 04:04:38PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 04:04:38PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 04:04:38PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 04:04:38PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 04:05:55PM DEBUG detected 'bcrypt' backend, version '4.0.1'
+24/11/2023 04:05:55PM DEBUG 'bcrypt' backend lacks $2$ support, enabling workaround
+24/11/2023 04:07:25PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 04:07:25PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 04:07:25PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 04:07:26PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 04:08:23PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 04:08:23PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 04:08:23PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 04:08:23PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 04:08:27PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 04:08:27PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 04:08:27PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 04:08:27PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 04:08:29PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 04:08:29PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 04:08:29PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 04:08:29PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 04:08:30PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 04:08:30PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 04:08:30PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 04:08:30PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 04:08:38PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 04:08:38PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 04:08:38PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 04:08:38PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 04:09:06PM DEBUG detected 'bcrypt' backend, version '4.0.1'
+24/11/2023 04:09:06PM DEBUG 'bcrypt' backend lacks $2$ support, enabling workaround
+24/11/2023 04:09:06PM INFO select pg_catalog.version()
+24/11/2023 04:09:06PM INFO [raw sql] ()
+24/11/2023 04:09:06PM INFO select current_schema()
+24/11/2023 04:09:06PM INFO [raw sql] ()
+24/11/2023 04:09:06PM INFO show standard_conforming_strings
+24/11/2023 04:09:06PM INFO [raw sql] ()
+24/11/2023 04:09:06PM INFO BEGIN (implicit)
+24/11/2023 04:09:06PM INFO INSERT INTO login (username, password) VALUES ($1::VARCHAR, $2::VARCHAR) RETURNING login.id
+24/11/2023 04:09:06PM INFO [generated in 0.00154s] ('Sam', '$2b$12$Tpdhmd/Vc9OjGSpbFHfXO.h4ntb8bs89mPscyZrJah2COVDto7Dz2')
+24/11/2023 04:09:06PM INFO COMMIT
+24/11/2023 04:09:52PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 04:09:52PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 04:09:52PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 04:09:52PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 04:11:12PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 04:11:12PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 04:11:12PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 04:11:12PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 04:11:21PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 04:11:21PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 04:11:21PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 04:11:22PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 04:11:45PM DEBUG detected 'bcrypt' backend, version '4.0.1'
+24/11/2023 04:11:45PM DEBUG 'bcrypt' backend lacks $2$ support, enabling workaround
+24/11/2023 04:11:45PM INFO select pg_catalog.version()
+24/11/2023 04:11:45PM INFO [raw sql] ()
+24/11/2023 04:11:45PM INFO select current_schema()
+24/11/2023 04:11:45PM INFO [raw sql] ()
+24/11/2023 04:11:45PM INFO show standard_conforming_strings
+24/11/2023 04:11:45PM INFO [raw sql] ()
+24/11/2023 04:11:45PM INFO BEGIN (implicit)
+24/11/2023 04:11:45PM INFO INSERT INTO login (username, password) VALUES ($1::VARCHAR, $2::VARCHAR) RETURNING login.id
+24/11/2023 04:11:45PM INFO [generated in 0.00055s] ('Ray', '$2b$12$nIRwvvYMHv9GvzeGP2t4qeY2too.zAXh7yO5vcREfqmsA4jy30XrK')
+24/11/2023 04:11:45PM INFO COMMIT
+24/11/2023 04:12:49PM DEBUG Calling on_field_start with no data
+24/11/2023 04:12:49PM DEBUG Calling on_field_name with data[0:10]
+24/11/2023 04:12:49PM DEBUG Calling on_field_end with no data
+24/11/2023 04:12:49PM DEBUG Calling on_field_start with no data
+24/11/2023 04:12:49PM DEBUG Calling on_field_name with data[12:20]
+24/11/2023 04:12:49PM DEBUG Calling on_field_data with data[21:24]
+24/11/2023 04:12:49PM DEBUG Calling on_field_end with no data
+24/11/2023 04:12:49PM DEBUG Calling on_field_start with no data
+24/11/2023 04:12:49PM DEBUG Calling on_field_name with data[25:33]
+24/11/2023 04:12:49PM DEBUG Calling on_field_data with data[34:40]
+24/11/2023 04:12:49PM DEBUG Calling on_field_end with no data
+24/11/2023 04:12:49PM DEBUG Calling on_field_start with no data
+24/11/2023 04:12:49PM DEBUG Calling on_field_name with data[41:46]
+24/11/2023 04:12:49PM DEBUG Calling on_field_end with no data
+24/11/2023 04:12:49PM DEBUG Calling on_field_start with no data
+24/11/2023 04:12:49PM DEBUG Calling on_field_name with data[48:57]
+24/11/2023 04:12:49PM DEBUG Calling on_field_end with no data
+24/11/2023 04:12:49PM DEBUG Calling on_field_start with no data
+24/11/2023 04:12:49PM DEBUG Calling on_field_name with data[59:72]
+24/11/2023 04:12:49PM DEBUG Calling on_field_end with no data
+24/11/2023 04:12:49PM DEBUG Calling on_end with no data
+24/11/2023 04:12:49PM INFO BEGIN (implicit)
+24/11/2023 04:12:49PM INFO SELECT login.id, login.username, login.password 
+FROM login 
+WHERE login.username = $1::VARCHAR
+24/11/2023 04:12:49PM INFO [generated in 0.00221s] ('Ray',)
+24/11/2023 04:12:49PM INFO ROLLBACK
+24/11/2023 04:14:00PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 04:14:00PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 04:14:00PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 04:14:00PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 04:14:07PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 04:14:07PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 04:14:07PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 04:14:07PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 04:14:09PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 04:14:09PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 04:14:09PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 04:14:09PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 04:14:18PM DEBUG Calling on_field_start with no data
+24/11/2023 04:14:18PM DEBUG Calling on_field_name with data[0:10]
+24/11/2023 04:14:18PM DEBUG Calling on_field_end with no data
+24/11/2023 04:14:18PM DEBUG Calling on_field_start with no data
+24/11/2023 04:14:18PM DEBUG Calling on_field_name with data[12:20]
+24/11/2023 04:14:18PM DEBUG Calling on_field_data with data[21:24]
+24/11/2023 04:14:18PM DEBUG Calling on_field_end with no data
+24/11/2023 04:14:18PM DEBUG Calling on_field_start with no data
+24/11/2023 04:14:18PM DEBUG Calling on_field_name with data[25:33]
+24/11/2023 04:14:18PM DEBUG Calling on_field_data with data[34:40]
+24/11/2023 04:14:18PM DEBUG Calling on_field_end with no data
+24/11/2023 04:14:18PM DEBUG Calling on_field_start with no data
+24/11/2023 04:14:18PM DEBUG Calling on_field_name with data[41:46]
+24/11/2023 04:14:18PM DEBUG Calling on_field_end with no data
+24/11/2023 04:14:18PM DEBUG Calling on_field_start with no data
+24/11/2023 04:14:18PM DEBUG Calling on_field_name with data[48:57]
+24/11/2023 04:14:18PM DEBUG Calling on_field_end with no data
+24/11/2023 04:14:18PM DEBUG Calling on_field_start with no data
+24/11/2023 04:14:18PM DEBUG Calling on_field_name with data[59:72]
+24/11/2023 04:14:18PM DEBUG Calling on_field_end with no data
+24/11/2023 04:14:18PM DEBUG Calling on_end with no data
+24/11/2023 04:14:18PM INFO select pg_catalog.version()
+24/11/2023 04:14:18PM INFO [raw sql] ()
+24/11/2023 04:14:18PM INFO select current_schema()
+24/11/2023 04:14:18PM INFO [raw sql] ()
+24/11/2023 04:14:18PM INFO show standard_conforming_strings
+24/11/2023 04:14:18PM INFO [raw sql] ()
+24/11/2023 04:14:18PM INFO BEGIN (implicit)
+24/11/2023 04:14:18PM INFO SELECT login.id, login.username, login.password 
+FROM login 
+WHERE login.username = $1::VARCHAR
+24/11/2023 04:14:18PM INFO [generated in 0.00102s] ('Ray',)
+24/11/2023 04:14:18PM DEBUG detected 'bcrypt' backend, version '4.0.1'
+24/11/2023 04:14:18PM DEBUG 'bcrypt' backend lacks $2$ support, enabling workaround
+24/11/2023 04:14:18PM INFO ROLLBACK
+24/11/2023 04:16:23PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 04:16:23PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 04:16:23PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 04:16:23PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 04:16:42PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 04:16:42PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 04:16:42PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 04:16:42PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 04:16:45PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 04:16:45PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 04:16:45PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 04:16:45PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 04:16:47PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 04:16:47PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 04:16:47PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 04:16:47PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 04:16:50PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 04:16:50PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 04:16:50PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 04:16:50PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 04:16:57PM DEBUG Calling on_field_start with no data
+24/11/2023 04:16:57PM DEBUG Calling on_field_name with data[0:10]
+24/11/2023 04:16:57PM DEBUG Calling on_field_end with no data
+24/11/2023 04:16:57PM DEBUG Calling on_field_start with no data
+24/11/2023 04:16:57PM DEBUG Calling on_field_name with data[12:20]
+24/11/2023 04:16:57PM DEBUG Calling on_field_data with data[21:24]
+24/11/2023 04:16:57PM DEBUG Calling on_field_end with no data
+24/11/2023 04:16:57PM DEBUG Calling on_field_start with no data
+24/11/2023 04:16:57PM DEBUG Calling on_field_name with data[25:33]
+24/11/2023 04:16:57PM DEBUG Calling on_field_data with data[34:40]
+24/11/2023 04:16:57PM DEBUG Calling on_field_end with no data
+24/11/2023 04:16:57PM DEBUG Calling on_field_start with no data
+24/11/2023 04:16:57PM DEBUG Calling on_field_name with data[41:46]
+24/11/2023 04:16:57PM DEBUG Calling on_field_end with no data
+24/11/2023 04:16:57PM DEBUG Calling on_field_start with no data
+24/11/2023 04:16:57PM DEBUG Calling on_field_name with data[48:57]
+24/11/2023 04:16:57PM DEBUG Calling on_field_end with no data
+24/11/2023 04:16:57PM DEBUG Calling on_field_start with no data
+24/11/2023 04:16:57PM DEBUG Calling on_field_name with data[59:72]
+24/11/2023 04:16:57PM DEBUG Calling on_field_end with no data
+24/11/2023 04:16:57PM DEBUG Calling on_end with no data
+24/11/2023 04:16:57PM INFO select pg_catalog.version()
+24/11/2023 04:16:57PM INFO [raw sql] ()
+24/11/2023 04:16:57PM INFO select current_schema()
+24/11/2023 04:16:57PM INFO [raw sql] ()
+24/11/2023 04:16:57PM INFO show standard_conforming_strings
+24/11/2023 04:16:57PM INFO [raw sql] ()
+24/11/2023 04:16:57PM INFO BEGIN (implicit)
+24/11/2023 04:16:57PM INFO SELECT login.id, login.username, login.password 
+FROM login 
+WHERE login.username = $1::VARCHAR
+24/11/2023 04:16:57PM INFO [generated in 0.00103s] ('Ray',)
+24/11/2023 04:16:57PM DEBUG detected 'bcrypt' backend, version '4.0.1'
+24/11/2023 04:16:57PM DEBUG 'bcrypt' backend lacks $2$ support, enabling workaround
+24/11/2023 04:16:58PM INFO ROLLBACK
+24/11/2023 04:21:22PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 04:21:22PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 04:21:22PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 04:21:22PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 04:21:23PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 04:21:23PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 04:21:23PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 04:21:24PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 04:22:30PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 04:22:30PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 04:22:30PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 04:22:30PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 04:22:44PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 04:22:44PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 04:22:44PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 04:22:44PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 04:23:09PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 04:23:09PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 04:23:09PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 04:23:09PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 04:24:06PM DEBUG detected 'bcrypt' backend, version '4.0.1'
+24/11/2023 04:24:06PM DEBUG 'bcrypt' backend lacks $2$ support, enabling workaround
+24/11/2023 04:24:07PM INFO select pg_catalog.version()
+24/11/2023 04:24:07PM INFO [raw sql] ()
+24/11/2023 04:24:07PM INFO select current_schema()
+24/11/2023 04:24:07PM INFO [raw sql] ()
+24/11/2023 04:24:07PM INFO show standard_conforming_strings
+24/11/2023 04:24:07PM INFO [raw sql] ()
+24/11/2023 04:24:07PM INFO BEGIN (implicit)
+24/11/2023 04:24:07PM INFO INSERT INTO login (username, password) VALUES ($1::VARCHAR, $2::VARCHAR) RETURNING login.id
+24/11/2023 04:24:07PM INFO [generated in 0.00062s] ('Mum', '$2b$12$G8HR/mleG3gAkRM/8sTLFOYXvlyseLp2GwhLiTa.XfF16kS/AFxw6')
+24/11/2023 04:24:07PM INFO COMMIT
+24/11/2023 04:24:34PM DEBUG Calling on_field_start with no data
+24/11/2023 04:24:34PM DEBUG Calling on_field_name with data[0:10]
+24/11/2023 04:24:34PM DEBUG Calling on_field_end with no data
+24/11/2023 04:24:34PM DEBUG Calling on_field_start with no data
+24/11/2023 04:24:34PM DEBUG Calling on_field_name with data[12:20]
+24/11/2023 04:24:34PM DEBUG Calling on_field_data with data[21:24]
+24/11/2023 04:24:34PM DEBUG Calling on_field_end with no data
+24/11/2023 04:24:34PM DEBUG Calling on_field_start with no data
+24/11/2023 04:24:34PM DEBUG Calling on_field_name with data[25:33]
+24/11/2023 04:24:34PM DEBUG Calling on_field_data with data[34:41]
+24/11/2023 04:24:34PM DEBUG Calling on_field_end with no data
+24/11/2023 04:24:34PM DEBUG Calling on_field_start with no data
+24/11/2023 04:24:34PM DEBUG Calling on_field_name with data[42:47]
+24/11/2023 04:24:34PM DEBUG Calling on_field_end with no data
+24/11/2023 04:24:34PM DEBUG Calling on_field_start with no data
+24/11/2023 04:24:34PM DEBUG Calling on_field_name with data[49:58]
+24/11/2023 04:24:34PM DEBUG Calling on_field_end with no data
+24/11/2023 04:24:34PM DEBUG Calling on_field_start with no data
+24/11/2023 04:24:34PM DEBUG Calling on_field_name with data[60:73]
+24/11/2023 04:24:34PM DEBUG Calling on_field_end with no data
+24/11/2023 04:24:34PM DEBUG Calling on_end with no data
+24/11/2023 04:24:35PM INFO BEGIN (implicit)
+24/11/2023 04:24:35PM INFO SELECT login.id, login.username, login.password 
+FROM login 
+WHERE login.username = $1::VARCHAR
+24/11/2023 04:24:35PM INFO [generated in 0.00079s] ('Mum',)
+24/11/2023 04:24:35PM INFO ROLLBACK
+24/11/2023 04:27:38PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 04:27:38PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 04:27:38PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 04:27:38PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 04:28:30PM DEBUG detected 'bcrypt' backend, version '4.0.1'
+24/11/2023 04:28:30PM DEBUG 'bcrypt' backend lacks $2$ support, enabling workaround
+24/11/2023 04:28:30PM INFO select pg_catalog.version()
+24/11/2023 04:28:30PM INFO [raw sql] ()
+24/11/2023 04:28:30PM INFO select current_schema()
+24/11/2023 04:28:30PM INFO [raw sql] ()
+24/11/2023 04:28:30PM INFO show standard_conforming_strings
+24/11/2023 04:28:30PM INFO [raw sql] ()
+24/11/2023 04:28:30PM INFO BEGIN (implicit)
+24/11/2023 04:28:30PM INFO INSERT INTO login (username, password) VALUES ($1::VARCHAR, $2::VARCHAR) RETURNING login.id
+24/11/2023 04:28:30PM INFO [generated in 0.00051s] ('Samuel', '$2b$12$GNerHMnhD.LSq8SXIa96w.knNn4pXYXIFnm31RQG6o54Dwh65TS4a')
+24/11/2023 04:28:30PM INFO COMMIT
+24/11/2023 04:29:07PM DEBUG Calling on_field_start with no data
+24/11/2023 04:29:07PM DEBUG Calling on_field_name with data[0:10]
+24/11/2023 04:29:07PM DEBUG Calling on_field_end with no data
+24/11/2023 04:29:07PM DEBUG Calling on_field_start with no data
+24/11/2023 04:29:07PM DEBUG Calling on_field_name with data[12:20]
+24/11/2023 04:29:07PM DEBUG Calling on_field_data with data[21:27]
+24/11/2023 04:29:07PM DEBUG Calling on_field_end with no data
+24/11/2023 04:29:07PM DEBUG Calling on_field_start with no data
+24/11/2023 04:29:07PM DEBUG Calling on_field_name with data[28:36]
+24/11/2023 04:29:07PM DEBUG Calling on_field_data with data[37:45]
+24/11/2023 04:29:07PM DEBUG Calling on_field_end with no data
+24/11/2023 04:29:07PM DEBUG Calling on_field_start with no data
+24/11/2023 04:29:07PM DEBUG Calling on_field_name with data[46:51]
+24/11/2023 04:29:07PM DEBUG Calling on_field_end with no data
+24/11/2023 04:29:07PM DEBUG Calling on_field_start with no data
+24/11/2023 04:29:07PM DEBUG Calling on_field_name with data[53:62]
+24/11/2023 04:29:07PM DEBUG Calling on_field_end with no data
+24/11/2023 04:29:07PM DEBUG Calling on_field_start with no data
+24/11/2023 04:29:07PM DEBUG Calling on_field_name with data[64:77]
+24/11/2023 04:29:07PM DEBUG Calling on_field_end with no data
+24/11/2023 04:29:07PM DEBUG Calling on_end with no data
+24/11/2023 04:29:07PM INFO BEGIN (implicit)
+24/11/2023 04:29:07PM INFO SELECT login.id, login.username, login.password 
+FROM login 
+WHERE login.username = $1::VARCHAR
+24/11/2023 04:29:07PM INFO [generated in 0.00152s] ('Samuel',)
+24/11/2023 04:29:08PM INFO ROLLBACK
+24/11/2023 04:29:53PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 04:29:53PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 04:29:53PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 04:29:53PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 04:30:00PM DEBUG Calling on_field_start with no data
+24/11/2023 04:30:00PM DEBUG Calling on_field_name with data[0:10]
+24/11/2023 04:30:00PM DEBUG Calling on_field_end with no data
+24/11/2023 04:30:00PM DEBUG Calling on_field_start with no data
+24/11/2023 04:30:00PM DEBUG Calling on_field_name with data[12:20]
+24/11/2023 04:30:00PM DEBUG Calling on_field_data with data[21:27]
+24/11/2023 04:30:00PM DEBUG Calling on_field_end with no data
+24/11/2023 04:30:00PM DEBUG Calling on_field_start with no data
+24/11/2023 04:30:00PM DEBUG Calling on_field_name with data[28:36]
+24/11/2023 04:30:00PM DEBUG Calling on_field_data with data[37:45]
+24/11/2023 04:30:00PM DEBUG Calling on_field_end with no data
+24/11/2023 04:30:00PM DEBUG Calling on_field_start with no data
+24/11/2023 04:30:00PM DEBUG Calling on_field_name with data[46:51]
+24/11/2023 04:30:00PM DEBUG Calling on_field_end with no data
+24/11/2023 04:30:00PM DEBUG Calling on_field_start with no data
+24/11/2023 04:30:00PM DEBUG Calling on_field_name with data[53:62]
+24/11/2023 04:30:00PM DEBUG Calling on_field_end with no data
+24/11/2023 04:30:00PM DEBUG Calling on_field_start with no data
+24/11/2023 04:30:00PM DEBUG Calling on_field_name with data[64:77]
+24/11/2023 04:30:00PM DEBUG Calling on_field_end with no data
+24/11/2023 04:30:00PM DEBUG Calling on_end with no data
+24/11/2023 04:30:00PM INFO select pg_catalog.version()
+24/11/2023 04:30:00PM INFO [raw sql] ()
+24/11/2023 04:30:00PM INFO select current_schema()
+24/11/2023 04:30:00PM INFO [raw sql] ()
+24/11/2023 04:30:00PM INFO show standard_conforming_strings
+24/11/2023 04:30:00PM INFO [raw sql] ()
+24/11/2023 04:30:00PM INFO BEGIN (implicit)
+24/11/2023 04:30:00PM INFO SELECT login.id, login.username, login.password 
+FROM login 
+WHERE login.username = $1::VARCHAR
+24/11/2023 04:30:00PM INFO [generated in 0.00073s] ('Samuel',)
+24/11/2023 04:30:00PM DEBUG detected 'bcrypt' backend, version '4.0.1'
+24/11/2023 04:30:00PM DEBUG 'bcrypt' backend lacks $2$ support, enabling workaround
+24/11/2023 04:30:00PM INFO ROLLBACK
+24/11/2023 04:32:18PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 04:32:18PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 04:32:18PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 04:32:19PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:05:15PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:05:15PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:05:15PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:05:15PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:05:22PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:05:22PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:05:22PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:05:22PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:05:26PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:05:26PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:05:26PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:05:26PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:05:30PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:05:30PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:05:30PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:05:30PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:05:32PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:05:32PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:05:32PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:05:32PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:05:55PM DEBUG Calling on_field_start with no data
+24/11/2023 05:05:55PM DEBUG Calling on_field_name with data[0:10]
+24/11/2023 05:05:55PM DEBUG Calling on_field_end with no data
+24/11/2023 05:05:55PM DEBUG Calling on_field_start with no data
+24/11/2023 05:05:55PM DEBUG Calling on_field_name with data[12:20]
+24/11/2023 05:05:55PM DEBUG Calling on_field_data with data[21:27]
+24/11/2023 05:05:55PM DEBUG Calling on_field_end with no data
+24/11/2023 05:05:55PM DEBUG Calling on_field_start with no data
+24/11/2023 05:05:55PM DEBUG Calling on_field_name with data[28:36]
+24/11/2023 05:05:55PM DEBUG Calling on_field_data with data[37:45]
+24/11/2023 05:05:55PM DEBUG Calling on_field_end with no data
+24/11/2023 05:05:55PM DEBUG Calling on_field_start with no data
+24/11/2023 05:05:55PM DEBUG Calling on_field_name with data[46:51]
+24/11/2023 05:05:55PM DEBUG Calling on_field_end with no data
+24/11/2023 05:05:55PM DEBUG Calling on_field_start with no data
+24/11/2023 05:05:55PM DEBUG Calling on_field_name with data[53:62]
+24/11/2023 05:05:55PM DEBUG Calling on_field_end with no data
+24/11/2023 05:05:55PM DEBUG Calling on_field_start with no data
+24/11/2023 05:05:55PM DEBUG Calling on_field_name with data[64:77]
+24/11/2023 05:05:55PM DEBUG Calling on_field_end with no data
+24/11/2023 05:05:55PM DEBUG Calling on_end with no data
+24/11/2023 05:05:55PM INFO select pg_catalog.version()
+24/11/2023 05:05:55PM INFO [raw sql] ()
+24/11/2023 05:05:55PM INFO select current_schema()
+24/11/2023 05:05:55PM INFO [raw sql] ()
+24/11/2023 05:05:55PM INFO show standard_conforming_strings
+24/11/2023 05:05:55PM INFO [raw sql] ()
+24/11/2023 05:05:55PM INFO BEGIN (implicit)
+24/11/2023 05:05:55PM INFO SELECT login.id, login.username, login.password 
+FROM login 
+WHERE login.username = $1::VARCHAR
+24/11/2023 05:05:55PM INFO [generated in 0.00091s] ('Samuel',)
+24/11/2023 05:05:55PM DEBUG detected 'bcrypt' backend, version '4.0.1'
+24/11/2023 05:05:55PM DEBUG 'bcrypt' backend lacks $2$ support, enabling workaround
+24/11/2023 05:05:55PM INFO ROLLBACK
+24/11/2023 05:08:02PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:08:02PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:08:02PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:08:02PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:08:26PM DEBUG detected 'bcrypt' backend, version '4.0.1'
+24/11/2023 05:08:26PM DEBUG 'bcrypt' backend lacks $2$ support, enabling workaround
+24/11/2023 05:08:26PM INFO select pg_catalog.version()
+24/11/2023 05:08:26PM INFO [raw sql] ()
+24/11/2023 05:08:26PM INFO select current_schema()
+24/11/2023 05:08:26PM INFO [raw sql] ()
+24/11/2023 05:08:26PM INFO show standard_conforming_strings
+24/11/2023 05:08:26PM INFO [raw sql] ()
+24/11/2023 05:08:26PM INFO BEGIN (implicit)
+24/11/2023 05:08:26PM INFO INSERT INTO login (username, password) VALUES ($1::VARCHAR, $2::VARCHAR) RETURNING login.id
+24/11/2023 05:08:26PM INFO [generated in 0.00055s] ('Flexzy', '$2b$12$mL0EDyqEvASkAHbBLlBRAeX/3n1Jouzx8D.PKopKpm5gSywPoENaO')
+24/11/2023 05:08:27PM INFO COMMIT
+24/11/2023 05:08:47PM DEBUG Calling on_field_start with no data
+24/11/2023 05:08:47PM DEBUG Calling on_field_name with data[0:10]
+24/11/2023 05:08:47PM DEBUG Calling on_field_end with no data
+24/11/2023 05:08:47PM DEBUG Calling on_field_start with no data
+24/11/2023 05:08:47PM DEBUG Calling on_field_name with data[12:20]
+24/11/2023 05:08:47PM DEBUG Calling on_field_data with data[21:27]
+24/11/2023 05:08:47PM DEBUG Calling on_field_end with no data
+24/11/2023 05:08:47PM DEBUG Calling on_field_start with no data
+24/11/2023 05:08:47PM DEBUG Calling on_field_name with data[28:36]
+24/11/2023 05:08:47PM DEBUG Calling on_field_data with data[37:41]
+24/11/2023 05:08:47PM DEBUG Calling on_field_end with no data
+24/11/2023 05:08:47PM DEBUG Calling on_field_start with no data
+24/11/2023 05:08:47PM DEBUG Calling on_field_name with data[42:47]
+24/11/2023 05:08:47PM DEBUG Calling on_field_end with no data
+24/11/2023 05:08:47PM DEBUG Calling on_field_start with no data
+24/11/2023 05:08:47PM DEBUG Calling on_field_name with data[49:58]
+24/11/2023 05:08:47PM DEBUG Calling on_field_end with no data
+24/11/2023 05:08:47PM DEBUG Calling on_field_start with no data
+24/11/2023 05:08:47PM DEBUG Calling on_field_name with data[60:73]
+24/11/2023 05:08:47PM DEBUG Calling on_field_end with no data
+24/11/2023 05:08:47PM DEBUG Calling on_end with no data
+24/11/2023 05:08:47PM INFO BEGIN (implicit)
+24/11/2023 05:08:47PM INFO SELECT login.id, login.username, login.password 
+FROM login 
+WHERE login.username = $1::VARCHAR
+24/11/2023 05:08:47PM INFO [generated in 0.00171s] ('Flexzy',)
+24/11/2023 05:08:48PM INFO ROLLBACK
+24/11/2023 05:23:50PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:23:50PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:23:50PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:23:50PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:23:52PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:23:52PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:23:52PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:23:52PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:24:18PM DEBUG Calling on_field_start with no data
+24/11/2023 05:24:18PM DEBUG Calling on_field_name with data[0:10]
+24/11/2023 05:24:18PM DEBUG Calling on_field_end with no data
+24/11/2023 05:24:18PM DEBUG Calling on_field_start with no data
+24/11/2023 05:24:18PM DEBUG Calling on_field_name with data[12:20]
+24/11/2023 05:24:18PM DEBUG Calling on_field_data with data[21:27]
+24/11/2023 05:24:18PM DEBUG Calling on_field_end with no data
+24/11/2023 05:24:18PM DEBUG Calling on_field_start with no data
+24/11/2023 05:24:18PM DEBUG Calling on_field_name with data[28:36]
+24/11/2023 05:24:18PM DEBUG Calling on_field_data with data[37:41]
+24/11/2023 05:24:18PM DEBUG Calling on_field_end with no data
+24/11/2023 05:24:18PM DEBUG Calling on_field_start with no data
+24/11/2023 05:24:18PM DEBUG Calling on_field_name with data[42:47]
+24/11/2023 05:24:18PM DEBUG Calling on_field_end with no data
+24/11/2023 05:24:18PM DEBUG Calling on_field_start with no data
+24/11/2023 05:24:18PM DEBUG Calling on_field_name with data[49:58]
+24/11/2023 05:24:18PM DEBUG Calling on_field_end with no data
+24/11/2023 05:24:18PM DEBUG Calling on_field_start with no data
+24/11/2023 05:24:18PM DEBUG Calling on_field_name with data[60:73]
+24/11/2023 05:24:18PM DEBUG Calling on_field_end with no data
+24/11/2023 05:24:18PM DEBUG Calling on_end with no data
+24/11/2023 05:24:18PM INFO select pg_catalog.version()
+24/11/2023 05:24:18PM INFO [raw sql] ()
+24/11/2023 05:24:18PM INFO select current_schema()
+24/11/2023 05:24:18PM INFO [raw sql] ()
+24/11/2023 05:24:18PM INFO show standard_conforming_strings
+24/11/2023 05:24:18PM INFO [raw sql] ()
+24/11/2023 05:24:18PM INFO BEGIN (implicit)
+24/11/2023 05:24:18PM INFO SELECT login.id, login.username, login.password 
+FROM login 
+WHERE login.username = $1::VARCHAR
+24/11/2023 05:24:18PM INFO [generated in 0.00073s] ('Flexzy',)
+24/11/2023 05:24:18PM DEBUG detected 'bcrypt' backend, version '4.0.1'
+24/11/2023 05:24:18PM DEBUG 'bcrypt' backend lacks $2$ support, enabling workaround
+24/11/2023 05:24:19PM INFO ROLLBACK
+24/11/2023 05:27:43PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:27:43PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:27:43PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:27:43PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:28:36PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:28:36PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:28:36PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:28:36PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:28:46PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:28:46PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:28:46PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:28:46PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:28:48PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:28:48PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:28:48PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:28:48PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:28:49PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:28:49PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:28:49PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:28:49PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:28:51PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:28:51PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:28:51PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:28:51PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:28:53PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:28:53PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:28:53PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:28:53PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:29:42PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:29:42PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:29:42PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:29:42PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:29:46PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:29:46PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:29:46PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:29:46PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:29:50PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:29:50PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:29:50PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:29:50PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:29:55PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:29:55PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:29:55PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:29:55PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:29:59PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:29:59PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:29:59PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:29:59PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:30:01PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:30:01PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:30:01PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:30:01PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:30:37PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:30:37PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:30:37PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:30:37PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:30:45PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:30:45PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:30:45PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:30:45PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:30:46PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:30:46PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:30:46PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:30:46PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:30:59PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:30:59PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:30:59PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:31:00PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:31:06PM DEBUG Calling on_field_start with no data
+24/11/2023 05:31:06PM DEBUG Calling on_field_name with data[0:10]
+24/11/2023 05:31:06PM DEBUG Calling on_field_end with no data
+24/11/2023 05:31:06PM DEBUG Calling on_field_start with no data
+24/11/2023 05:31:06PM DEBUG Calling on_field_name with data[12:20]
+24/11/2023 05:31:06PM DEBUG Calling on_field_data with data[21:27]
+24/11/2023 05:31:06PM DEBUG Calling on_field_end with no data
+24/11/2023 05:31:06PM DEBUG Calling on_field_start with no data
+24/11/2023 05:31:06PM DEBUG Calling on_field_name with data[28:36]
+24/11/2023 05:31:06PM DEBUG Calling on_field_data with data[37:41]
+24/11/2023 05:31:06PM DEBUG Calling on_field_end with no data
+24/11/2023 05:31:06PM DEBUG Calling on_field_start with no data
+24/11/2023 05:31:06PM DEBUG Calling on_field_name with data[42:47]
+24/11/2023 05:31:06PM DEBUG Calling on_field_end with no data
+24/11/2023 05:31:06PM DEBUG Calling on_field_start with no data
+24/11/2023 05:31:06PM DEBUG Calling on_field_name with data[49:58]
+24/11/2023 05:31:06PM DEBUG Calling on_field_end with no data
+24/11/2023 05:31:06PM DEBUG Calling on_field_start with no data
+24/11/2023 05:31:06PM DEBUG Calling on_field_name with data[60:73]
+24/11/2023 05:31:06PM DEBUG Calling on_field_end with no data
+24/11/2023 05:31:06PM DEBUG Calling on_end with no data
+24/11/2023 05:31:06PM INFO select pg_catalog.version()
+24/11/2023 05:31:06PM INFO [raw sql] ()
+24/11/2023 05:31:06PM INFO select current_schema()
+24/11/2023 05:31:06PM INFO [raw sql] ()
+24/11/2023 05:31:06PM INFO show standard_conforming_strings
+24/11/2023 05:31:06PM INFO [raw sql] ()
+24/11/2023 05:31:06PM INFO BEGIN (implicit)
+24/11/2023 05:31:06PM INFO SELECT login.id, login.username, login.password 
+FROM login 
+WHERE login.username = $1::VARCHAR
+24/11/2023 05:31:06PM INFO [generated in 0.00077s] ('Flexzy',)
+24/11/2023 05:31:06PM DEBUG detected 'bcrypt' backend, version '4.0.1'
+24/11/2023 05:31:06PM DEBUG 'bcrypt' backend lacks $2$ support, enabling workaround
+24/11/2023 05:31:06PM INFO ROLLBACK
+24/11/2023 05:32:11PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:32:11PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:32:11PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:32:11PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:32:15PM DEBUG Calling on_field_start with no data
+24/11/2023 05:32:15PM DEBUG Calling on_field_name with data[0:10]
+24/11/2023 05:32:15PM DEBUG Calling on_field_end with no data
+24/11/2023 05:32:15PM DEBUG Calling on_field_start with no data
+24/11/2023 05:32:15PM DEBUG Calling on_field_name with data[12:20]
+24/11/2023 05:32:15PM DEBUG Calling on_field_data with data[21:27]
+24/11/2023 05:32:15PM DEBUG Calling on_field_end with no data
+24/11/2023 05:32:15PM DEBUG Calling on_field_start with no data
+24/11/2023 05:32:15PM DEBUG Calling on_field_name with data[28:36]
+24/11/2023 05:32:15PM DEBUG Calling on_field_data with data[37:41]
+24/11/2023 05:32:15PM DEBUG Calling on_field_end with no data
+24/11/2023 05:32:15PM DEBUG Calling on_field_start with no data
+24/11/2023 05:32:15PM DEBUG Calling on_field_name with data[42:47]
+24/11/2023 05:32:15PM DEBUG Calling on_field_end with no data
+24/11/2023 05:32:15PM DEBUG Calling on_field_start with no data
+24/11/2023 05:32:15PM DEBUG Calling on_field_name with data[49:58]
+24/11/2023 05:32:15PM DEBUG Calling on_field_end with no data
+24/11/2023 05:32:15PM DEBUG Calling on_field_start with no data
+24/11/2023 05:32:15PM DEBUG Calling on_field_name with data[60:73]
+24/11/2023 05:32:15PM DEBUG Calling on_field_end with no data
+24/11/2023 05:32:15PM DEBUG Calling on_end with no data
+24/11/2023 05:32:15PM INFO select pg_catalog.version()
+24/11/2023 05:32:15PM INFO [raw sql] ()
+24/11/2023 05:32:15PM INFO select current_schema()
+24/11/2023 05:32:15PM INFO [raw sql] ()
+24/11/2023 05:32:15PM INFO show standard_conforming_strings
+24/11/2023 05:32:15PM INFO [raw sql] ()
+24/11/2023 05:32:15PM INFO BEGIN (implicit)
+24/11/2023 05:32:15PM INFO SELECT login.id, login.username, login.password 
+FROM login 
+WHERE login.username = $1::VARCHAR
+24/11/2023 05:32:15PM INFO [generated in 0.00094s] ('Flexzy',)
+24/11/2023 05:32:15PM DEBUG detected 'bcrypt' backend, version '4.0.1'
+24/11/2023 05:32:15PM DEBUG 'bcrypt' backend lacks $2$ support, enabling workaround
+24/11/2023 05:32:15PM INFO ROLLBACK
+24/11/2023 05:33:12PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:33:12PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:33:12PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:33:12PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:33:51PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:33:51PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:33:51PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:33:51PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:37:57PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:37:57PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:37:57PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:37:57PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:37:59PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:37:59PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:37:59PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:37:59PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:38:03PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:38:03PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:38:03PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:38:03PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:38:09PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:38:09PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:38:09PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:38:10PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:38:11PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:38:11PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:38:11PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:38:11PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:38:20PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:38:20PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:38:20PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:38:20PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:38:26PM DEBUG Calling on_field_start with no data
+24/11/2023 05:38:26PM DEBUG Calling on_field_name with data[0:10]
+24/11/2023 05:38:26PM DEBUG Calling on_field_end with no data
+24/11/2023 05:38:26PM DEBUG Calling on_field_start with no data
+24/11/2023 05:38:26PM DEBUG Calling on_field_name with data[12:20]
+24/11/2023 05:38:26PM DEBUG Calling on_field_data with data[21:27]
+24/11/2023 05:38:26PM DEBUG Calling on_field_end with no data
+24/11/2023 05:38:26PM DEBUG Calling on_field_start with no data
+24/11/2023 05:38:26PM DEBUG Calling on_field_name with data[28:36]
+24/11/2023 05:38:26PM DEBUG Calling on_field_data with data[37:41]
+24/11/2023 05:38:26PM DEBUG Calling on_field_end with no data
+24/11/2023 05:38:26PM DEBUG Calling on_field_start with no data
+24/11/2023 05:38:26PM DEBUG Calling on_field_name with data[42:47]
+24/11/2023 05:38:26PM DEBUG Calling on_field_end with no data
+24/11/2023 05:38:26PM DEBUG Calling on_field_start with no data
+24/11/2023 05:38:26PM DEBUG Calling on_field_name with data[49:58]
+24/11/2023 05:38:26PM DEBUG Calling on_field_end with no data
+24/11/2023 05:38:26PM DEBUG Calling on_field_start with no data
+24/11/2023 05:38:26PM DEBUG Calling on_field_name with data[60:73]
+24/11/2023 05:38:26PM DEBUG Calling on_field_end with no data
+24/11/2023 05:38:26PM DEBUG Calling on_end with no data
+24/11/2023 05:38:26PM INFO select pg_catalog.version()
+24/11/2023 05:38:26PM INFO [raw sql] ()
+24/11/2023 05:38:26PM INFO select current_schema()
+24/11/2023 05:38:26PM INFO [raw sql] ()
+24/11/2023 05:38:26PM INFO show standard_conforming_strings
+24/11/2023 05:38:26PM INFO [raw sql] ()
+24/11/2023 05:38:26PM INFO BEGIN (implicit)
+24/11/2023 05:38:26PM INFO SELECT login.id, login.username, login.password 
+FROM login 
+WHERE login.username = $1::VARCHAR
+24/11/2023 05:38:26PM INFO [generated in 0.00090s] ('Flexzy',)
+24/11/2023 05:38:26PM DEBUG detected 'bcrypt' backend, version '4.0.1'
+24/11/2023 05:38:26PM DEBUG 'bcrypt' backend lacks $2$ support, enabling workaround
+24/11/2023 05:38:27PM INFO ROLLBACK
+24/11/2023 05:38:49PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:38:49PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:38:49PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:38:49PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:38:52PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:38:52PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:38:52PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:38:52PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:38:59PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:38:59PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:38:59PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:39:02PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:39:03PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:39:03PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:39:03PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:39:33PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:39:33PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:39:33PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:39:33PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:39:42PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:39:42PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:39:42PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:39:42PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:39:45PM DEBUG Calling on_field_start with no data
+24/11/2023 05:39:45PM DEBUG Calling on_field_name with data[0:10]
+24/11/2023 05:39:45PM DEBUG Calling on_field_end with no data
+24/11/2023 05:39:45PM DEBUG Calling on_field_start with no data
+24/11/2023 05:39:45PM DEBUG Calling on_field_name with data[12:20]
+24/11/2023 05:39:45PM DEBUG Calling on_field_data with data[21:27]
+24/11/2023 05:39:45PM DEBUG Calling on_field_end with no data
+24/11/2023 05:39:45PM DEBUG Calling on_field_start with no data
+24/11/2023 05:39:45PM DEBUG Calling on_field_name with data[28:36]
+24/11/2023 05:39:45PM DEBUG Calling on_field_data with data[37:41]
+24/11/2023 05:39:45PM DEBUG Calling on_field_end with no data
+24/11/2023 05:39:45PM DEBUG Calling on_field_start with no data
+24/11/2023 05:39:45PM DEBUG Calling on_field_name with data[42:47]
+24/11/2023 05:39:45PM DEBUG Calling on_field_end with no data
+24/11/2023 05:39:45PM DEBUG Calling on_field_start with no data
+24/11/2023 05:39:45PM DEBUG Calling on_field_name with data[49:58]
+24/11/2023 05:39:45PM DEBUG Calling on_field_end with no data
+24/11/2023 05:39:45PM DEBUG Calling on_field_start with no data
+24/11/2023 05:39:45PM DEBUG Calling on_field_name with data[60:73]
+24/11/2023 05:39:45PM DEBUG Calling on_field_end with no data
+24/11/2023 05:39:45PM DEBUG Calling on_end with no data
+24/11/2023 05:39:45PM INFO select pg_catalog.version()
+24/11/2023 05:39:45PM INFO [raw sql] ()
+24/11/2023 05:39:45PM INFO select current_schema()
+24/11/2023 05:39:45PM INFO [raw sql] ()
+24/11/2023 05:39:45PM INFO show standard_conforming_strings
+24/11/2023 05:39:45PM INFO [raw sql] ()
+24/11/2023 05:39:45PM INFO BEGIN (implicit)
+24/11/2023 05:39:45PM INFO SELECT login.id, login.username, login.password 
+FROM login 
+WHERE login.username = $1::VARCHAR
+24/11/2023 05:39:45PM INFO [generated in 0.00059s] ('Flexzy',)
+24/11/2023 05:39:45PM DEBUG detected 'bcrypt' backend, version '4.0.1'
+24/11/2023 05:39:45PM DEBUG 'bcrypt' backend lacks $2$ support, enabling workaround
+24/11/2023 05:39:45PM INFO ROLLBACK
+24/11/2023 05:40:11PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:40:11PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:40:11PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:40:11PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:40:15PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:40:15PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:40:15PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:40:15PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:40:17PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:40:17PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:40:17PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:40:17PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:40:20PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:40:20PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:40:20PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:40:20PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:40:22PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:40:22PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:40:22PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:40:22PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:40:23PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:40:23PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:40:23PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:40:24PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:40:25PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:40:25PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:40:25PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:40:25PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:40:35PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:40:35PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:40:35PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:40:35PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:40:38PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:40:38PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:40:38PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:40:38PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:40:59PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:40:59PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:40:59PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:40:59PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:41:10PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:41:10PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:41:10PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:41:10PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:41:15PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:41:15PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:41:15PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:41:15PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:41:21PM DEBUG Calling on_field_start with no data
+24/11/2023 05:41:21PM DEBUG Calling on_field_name with data[0:10]
+24/11/2023 05:41:21PM DEBUG Calling on_field_end with no data
+24/11/2023 05:41:21PM DEBUG Calling on_field_start with no data
+24/11/2023 05:41:21PM DEBUG Calling on_field_name with data[12:20]
+24/11/2023 05:41:21PM DEBUG Calling on_field_data with data[21:27]
+24/11/2023 05:41:21PM DEBUG Calling on_field_end with no data
+24/11/2023 05:41:21PM DEBUG Calling on_field_start with no data
+24/11/2023 05:41:21PM DEBUG Calling on_field_name with data[28:36]
+24/11/2023 05:41:21PM DEBUG Calling on_field_data with data[37:41]
+24/11/2023 05:41:21PM DEBUG Calling on_field_end with no data
+24/11/2023 05:41:21PM DEBUG Calling on_field_start with no data
+24/11/2023 05:41:21PM DEBUG Calling on_field_name with data[42:47]
+24/11/2023 05:41:21PM DEBUG Calling on_field_end with no data
+24/11/2023 05:41:21PM DEBUG Calling on_field_start with no data
+24/11/2023 05:41:21PM DEBUG Calling on_field_name with data[49:58]
+24/11/2023 05:41:21PM DEBUG Calling on_field_end with no data
+24/11/2023 05:41:21PM DEBUG Calling on_field_start with no data
+24/11/2023 05:41:21PM DEBUG Calling on_field_name with data[60:73]
+24/11/2023 05:41:21PM DEBUG Calling on_field_end with no data
+24/11/2023 05:41:21PM DEBUG Calling on_end with no data
+24/11/2023 05:41:21PM INFO select pg_catalog.version()
+24/11/2023 05:41:21PM INFO [raw sql] ()
+24/11/2023 05:41:21PM INFO select current_schema()
+24/11/2023 05:41:21PM INFO [raw sql] ()
+24/11/2023 05:41:21PM INFO show standard_conforming_strings
+24/11/2023 05:41:21PM INFO [raw sql] ()
+24/11/2023 05:41:21PM INFO BEGIN (implicit)
+24/11/2023 05:41:21PM INFO SELECT login.id, login.username, login.password 
+FROM login 
+WHERE login.username = $1::VARCHAR
+24/11/2023 05:41:21PM INFO [generated in 0.00110s] ('Flexzy',)
+24/11/2023 05:41:21PM DEBUG detected 'bcrypt' backend, version '4.0.1'
+24/11/2023 05:41:21PM DEBUG 'bcrypt' backend lacks $2$ support, enabling workaround
+24/11/2023 05:41:22PM INFO ROLLBACK
+24/11/2023 05:42:51PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:42:51PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:42:51PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:42:51PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:42:59PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:42:59PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:42:59PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:42:59PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:43:06PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:43:06PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:43:06PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:43:06PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:43:11PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:43:11PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:43:11PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:43:12PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:43:18PM DEBUG Calling on_field_start with no data
+24/11/2023 05:43:18PM DEBUG Calling on_field_name with data[0:10]
+24/11/2023 05:43:18PM DEBUG Calling on_field_end with no data
+24/11/2023 05:43:18PM DEBUG Calling on_field_start with no data
+24/11/2023 05:43:18PM DEBUG Calling on_field_name with data[12:20]
+24/11/2023 05:43:18PM DEBUG Calling on_field_data with data[21:27]
+24/11/2023 05:43:18PM DEBUG Calling on_field_end with no data
+24/11/2023 05:43:18PM DEBUG Calling on_field_start with no data
+24/11/2023 05:43:18PM DEBUG Calling on_field_name with data[28:36]
+24/11/2023 05:43:18PM DEBUG Calling on_field_data with data[37:41]
+24/11/2023 05:43:18PM DEBUG Calling on_field_end with no data
+24/11/2023 05:43:18PM DEBUG Calling on_field_start with no data
+24/11/2023 05:43:18PM DEBUG Calling on_field_name with data[42:47]
+24/11/2023 05:43:18PM DEBUG Calling on_field_end with no data
+24/11/2023 05:43:18PM DEBUG Calling on_field_start with no data
+24/11/2023 05:43:18PM DEBUG Calling on_field_name with data[49:58]
+24/11/2023 05:43:18PM DEBUG Calling on_field_end with no data
+24/11/2023 05:43:18PM DEBUG Calling on_field_start with no data
+24/11/2023 05:43:18PM DEBUG Calling on_field_name with data[60:73]
+24/11/2023 05:43:18PM DEBUG Calling on_field_end with no data
+24/11/2023 05:43:18PM DEBUG Calling on_end with no data
+24/11/2023 05:43:18PM INFO select pg_catalog.version()
+24/11/2023 05:43:18PM INFO [raw sql] ()
+24/11/2023 05:43:18PM INFO select current_schema()
+24/11/2023 05:43:18PM INFO [raw sql] ()
+24/11/2023 05:43:18PM INFO show standard_conforming_strings
+24/11/2023 05:43:18PM INFO [raw sql] ()
+24/11/2023 05:43:18PM INFO BEGIN (implicit)
+24/11/2023 05:43:18PM INFO SELECT login.id, login.username, login.password 
+FROM login 
+WHERE login.username = $1::VARCHAR
+24/11/2023 05:43:18PM INFO [generated in 0.00117s] ('Flexzy',)
+24/11/2023 05:43:18PM DEBUG detected 'bcrypt' backend, version '4.0.1'
+24/11/2023 05:43:18PM DEBUG 'bcrypt' backend lacks $2$ support, enabling workaround
+24/11/2023 05:43:18PM INFO ROLLBACK
+24/11/2023 05:43:31PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:43:31PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:43:31PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:43:31PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:43:33PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:43:33PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:43:33PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:43:33PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:43:44PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:43:44PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:43:44PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:43:44PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:44:02PM DEBUG Calling on_field_start with no data
+24/11/2023 05:44:02PM DEBUG Calling on_field_name with data[0:10]
+24/11/2023 05:44:02PM DEBUG Calling on_field_end with no data
+24/11/2023 05:44:02PM DEBUG Calling on_field_start with no data
+24/11/2023 05:44:02PM DEBUG Calling on_field_name with data[12:20]
+24/11/2023 05:44:02PM DEBUG Calling on_field_data with data[21:27]
+24/11/2023 05:44:02PM DEBUG Calling on_field_end with no data
+24/11/2023 05:44:02PM DEBUG Calling on_field_start with no data
+24/11/2023 05:44:02PM DEBUG Calling on_field_name with data[28:36]
+24/11/2023 05:44:02PM DEBUG Calling on_field_data with data[37:41]
+24/11/2023 05:44:02PM DEBUG Calling on_field_end with no data
+24/11/2023 05:44:02PM DEBUG Calling on_field_start with no data
+24/11/2023 05:44:02PM DEBUG Calling on_field_name with data[42:47]
+24/11/2023 05:44:02PM DEBUG Calling on_field_end with no data
+24/11/2023 05:44:02PM DEBUG Calling on_field_start with no data
+24/11/2023 05:44:02PM DEBUG Calling on_field_name with data[49:58]
+24/11/2023 05:44:02PM DEBUG Calling on_field_end with no data
+24/11/2023 05:44:02PM DEBUG Calling on_field_start with no data
+24/11/2023 05:44:02PM DEBUG Calling on_field_name with data[60:73]
+24/11/2023 05:44:02PM DEBUG Calling on_field_end with no data
+24/11/2023 05:44:02PM DEBUG Calling on_end with no data
+24/11/2023 05:44:02PM INFO select pg_catalog.version()
+24/11/2023 05:44:02PM INFO [raw sql] ()
+24/11/2023 05:44:02PM INFO select current_schema()
+24/11/2023 05:44:02PM INFO [raw sql] ()
+24/11/2023 05:44:02PM INFO show standard_conforming_strings
+24/11/2023 05:44:02PM INFO [raw sql] ()
+24/11/2023 05:44:02PM INFO BEGIN (implicit)
+24/11/2023 05:44:02PM INFO SELECT login.id, login.username, login.password 
+FROM login 
+WHERE login.username = $1::VARCHAR
+24/11/2023 05:44:02PM INFO [generated in 0.00092s] ('Flexzy',)
+24/11/2023 05:44:02PM DEBUG detected 'bcrypt' backend, version '4.0.1'
+24/11/2023 05:44:02PM DEBUG 'bcrypt' backend lacks $2$ support, enabling workaround
+24/11/2023 05:44:02PM INFO ROLLBACK
+24/11/2023 05:53:03PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:53:03PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:53:03PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:53:03PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:53:21PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:53:21PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:53:21PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:53:22PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:53:23PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:53:23PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:53:23PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:53:23PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:53:45PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:53:45PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:53:45PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:53:45PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:53:49PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:53:49PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:53:49PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:53:49PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:53:53PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:53:53PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:53:53PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:53:53PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:54:09PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:54:09PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:54:09PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:54:09PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:54:28PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:54:28PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:54:28PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:54:28PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:54:29PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:54:29PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:54:29PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:54:29PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:54:32PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:54:32PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:54:32PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:54:32PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:54:40PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:54:40PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:54:40PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:54:40PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:54:53PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:54:53PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:54:53PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:54:53PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:54:54PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:54:54PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:54:54PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:54:55PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:54:56PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:54:56PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:54:56PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:54:56PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:54:59PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:54:59PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:54:59PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:54:59PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:55:22PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:55:22PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:55:22PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:55:23PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:55:33PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:55:33PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:55:33PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:55:33PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:55:44PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:55:44PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:55:44PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:55:44PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:56:39PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:56:39PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:56:39PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:56:39PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:56:44PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:56:44PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:56:44PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:56:44PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:56:45PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:56:45PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:56:45PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:56:46PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:56:52PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:56:52PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:56:52PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:56:52PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:56:59PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:56:59PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:56:59PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:56:59PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:57:04PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:57:04PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:57:04PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:57:04PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:57:12PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:57:12PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:57:12PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:57:13PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:57:18PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:57:18PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:57:18PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:57:18PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 05:57:26PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 05:57:26PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 05:57:26PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 05:57:26PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:19:47PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:19:47PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:19:47PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:19:47PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:20:26PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:20:26PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:20:26PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:20:27PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:20:43PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:20:43PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:20:43PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:20:43PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:21:43PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:21:43PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:21:43PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:21:43PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:21:47PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:21:47PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:21:47PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:21:47PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:22:14PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:22:14PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:22:14PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:22:14PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:22:56PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:22:56PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:22:56PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:22:56PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:25:06PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:25:06PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:25:06PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:25:06PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:25:10PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:25:10PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:25:10PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:25:10PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:25:15PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:25:15PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:25:15PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:25:15PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:25:19PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:25:19PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:25:19PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:25:19PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:25:23PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:25:23PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:25:23PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:25:23PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:25:25PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:25:25PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:25:25PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:25:25PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:25:27PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:25:27PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:25:27PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:25:27PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:25:29PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:25:29PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:25:29PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:25:29PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:25:46PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:25:46PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:25:46PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:25:46PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:25:49PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:25:49PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:25:49PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:25:49PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:25:54PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:25:54PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:25:54PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:25:54PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:26:00PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:26:00PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:26:00PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:26:00PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:26:15PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:26:15PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:26:15PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:26:15PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:26:33PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:26:33PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:26:33PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:26:33PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:26:38PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:26:38PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:26:38PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:26:39PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:26:40PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:26:40PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:26:40PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:26:40PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:26:44PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:26:44PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:26:44PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:26:44PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:26:53PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:26:53PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:26:53PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:26:54PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:26:55PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:26:55PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:26:55PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:26:55PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:26:58PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:26:58PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:26:58PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:26:58PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:27:19PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:27:19PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:27:19PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:27:19PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:27:25PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:27:25PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:27:25PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:27:25PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:27:27PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:27:27PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:27:27PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:27:27PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:27:37PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:27:37PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:27:37PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:27:37PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:27:39PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:27:39PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:27:39PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:27:39PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:27:46PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:27:46PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:27:46PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:27:46PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:27:48PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:27:48PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:27:48PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:27:48PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:27:51PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:27:51PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:27:51PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:27:51PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:27:55PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:27:55PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:27:55PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:27:55PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:28:01PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:28:01PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:28:01PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:28:01PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:28:04PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:28:04PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:28:04PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:28:04PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:28:05PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:28:05PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:28:05PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:28:05PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:28:06PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:28:06PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:28:06PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:28:07PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:28:09PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:28:09PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:28:09PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:28:09PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:29:34PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:29:34PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:29:34PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:29:34PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:30:35PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:30:35PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:30:35PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:30:35PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:30:40PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:30:40PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:30:40PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:30:40PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:30:41PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:30:41PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:30:41PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:30:41PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:30:44PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:30:44PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:30:44PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:30:44PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:30:46PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:30:46PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:30:46PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:30:46PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:31:32PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:31:32PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:31:32PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:31:32PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:31:40PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:31:40PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:31:40PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:31:40PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:32:05PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:32:05PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:32:05PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:32:05PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:32:07PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:32:07PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:32:07PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:32:07PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:32:09PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:32:09PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:32:09PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:32:09PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:32:12PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:32:12PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:32:12PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:32:12PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:32:15PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:32:15PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:32:15PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:32:15PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:32:24PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:32:24PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:32:24PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:32:24PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:32:26PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:32:26PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:32:26PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:32:27PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:32:35PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:32:35PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:32:35PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:32:35PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:32:42PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:32:42PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:32:42PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:32:43PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:32:48PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:32:48PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:32:48PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:32:48PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:32:49PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:32:49PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:32:49PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:32:50PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:32:59PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:32:59PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:32:59PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:32:59PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:33:01PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:33:01PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:33:01PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:33:01PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:33:03PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:33:03PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:33:03PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:33:04PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:35:27PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:35:27PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:35:27PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:35:27PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:42:10PM DEBUG Calling on_field_start with no data
+24/11/2023 06:42:10PM DEBUG Calling on_field_name with data[0:10]
+24/11/2023 06:42:10PM DEBUG Calling on_field_data with data[11:19]
+24/11/2023 06:42:10PM DEBUG Calling on_field_end with no data
+24/11/2023 06:42:10PM DEBUG Calling on_field_start with no data
+24/11/2023 06:42:10PM DEBUG Calling on_field_name with data[20:28]
+24/11/2023 06:42:10PM DEBUG Calling on_field_data with data[29:35]
+24/11/2023 06:42:10PM DEBUG Calling on_field_end with no data
+24/11/2023 06:42:10PM DEBUG Calling on_field_start with no data
+24/11/2023 06:42:10PM DEBUG Calling on_field_name with data[36:44]
+24/11/2023 06:42:10PM DEBUG Calling on_field_data with data[45:49]
+24/11/2023 06:42:10PM DEBUG Calling on_field_end with no data
+24/11/2023 06:42:10PM DEBUG Calling on_end with no data
+24/11/2023 06:42:10PM INFO select pg_catalog.version()
+24/11/2023 06:42:10PM INFO [raw sql] ()
+24/11/2023 06:42:10PM INFO select current_schema()
+24/11/2023 06:42:10PM INFO [raw sql] ()
+24/11/2023 06:42:10PM INFO show standard_conforming_strings
+24/11/2023 06:42:10PM INFO [raw sql] ()
+24/11/2023 06:42:10PM INFO BEGIN (implicit)
+24/11/2023 06:42:10PM INFO SELECT login.id, login.username, login.password 
+FROM login 
+WHERE login.username = $1::VARCHAR
+24/11/2023 06:42:10PM INFO [generated in 0.00084s] ('Flexzy',)
+24/11/2023 06:42:10PM DEBUG detected 'bcrypt' backend, version '4.0.1'
+24/11/2023 06:42:10PM DEBUG 'bcrypt' backend lacks $2$ support, enabling workaround
+24/11/2023 06:42:10PM INFO ROLLBACK
+24/11/2023 06:45:27PM DEBUG Calling on_field_start with no data
+24/11/2023 06:45:27PM DEBUG Calling on_field_name with data[0:10]
+24/11/2023 06:45:27PM DEBUG Calling on_field_data with data[11:19]
+24/11/2023 06:45:27PM DEBUG Calling on_field_end with no data
+24/11/2023 06:45:27PM DEBUG Calling on_field_start with no data
+24/11/2023 06:45:27PM DEBUG Calling on_field_name with data[20:28]
+24/11/2023 06:45:27PM DEBUG Calling on_field_data with data[29:35]
+24/11/2023 06:45:27PM DEBUG Calling on_field_end with no data
+24/11/2023 06:45:27PM DEBUG Calling on_field_start with no data
+24/11/2023 06:45:27PM DEBUG Calling on_field_name with data[36:44]
+24/11/2023 06:45:27PM DEBUG Calling on_field_data with data[45:49]
+24/11/2023 06:45:27PM DEBUG Calling on_field_end with no data
+24/11/2023 06:45:27PM DEBUG Calling on_end with no data
+24/11/2023 06:45:27PM INFO select pg_catalog.version()
+24/11/2023 06:45:27PM INFO [raw sql] ()
+24/11/2023 06:45:27PM INFO select current_schema()
+24/11/2023 06:45:27PM INFO [raw sql] ()
+24/11/2023 06:45:27PM INFO show standard_conforming_strings
+24/11/2023 06:45:27PM INFO [raw sql] ()
+24/11/2023 06:45:27PM INFO BEGIN (implicit)
+24/11/2023 06:45:27PM INFO SELECT login.id, login.username, login.password 
+FROM login 
+WHERE login.username = $1::VARCHAR
+24/11/2023 06:45:27PM INFO [generated in 0.00103s] ('Flexzy',)
+24/11/2023 06:45:27PM DEBUG detected 'bcrypt' backend, version '4.0.1'
+24/11/2023 06:45:27PM DEBUG 'bcrypt' backend lacks $2$ support, enabling workaround
+24/11/2023 06:45:27PM INFO ROLLBACK
+24/11/2023 06:48:51PM DEBUG Calling on_field_start with no data
+24/11/2023 06:48:51PM DEBUG Calling on_field_name with data[0:10]
+24/11/2023 06:48:51PM DEBUG Calling on_field_data with data[11:19]
+24/11/2023 06:48:51PM DEBUG Calling on_field_end with no data
+24/11/2023 06:48:51PM DEBUG Calling on_field_start with no data
+24/11/2023 06:48:51PM DEBUG Calling on_field_name with data[20:28]
+24/11/2023 06:48:51PM DEBUG Calling on_field_data with data[29:35]
+24/11/2023 06:48:51PM DEBUG Calling on_field_end with no data
+24/11/2023 06:48:51PM DEBUG Calling on_field_start with no data
+24/11/2023 06:48:51PM DEBUG Calling on_field_name with data[36:44]
+24/11/2023 06:48:51PM DEBUG Calling on_field_data with data[45:49]
+24/11/2023 06:48:51PM DEBUG Calling on_field_end with no data
+24/11/2023 06:48:51PM DEBUG Calling on_end with no data
+24/11/2023 06:48:51PM INFO select pg_catalog.version()
+24/11/2023 06:48:51PM INFO [raw sql] ()
+24/11/2023 06:48:51PM INFO select current_schema()
+24/11/2023 06:48:51PM INFO [raw sql] ()
+24/11/2023 06:48:51PM INFO show standard_conforming_strings
+24/11/2023 06:48:51PM INFO [raw sql] ()
+24/11/2023 06:48:51PM INFO BEGIN (implicit)
+24/11/2023 06:48:51PM INFO SELECT login.id, login.username, login.password 
+FROM login 
+WHERE login.username = $1::VARCHAR
+24/11/2023 06:48:51PM INFO [generated in 0.00087s] ('Flexzy',)
+24/11/2023 06:48:51PM DEBUG detected 'bcrypt' backend, version '4.0.1'
+24/11/2023 06:48:51PM DEBUG 'bcrypt' backend lacks $2$ support, enabling workaround
+24/11/2023 06:48:51PM INFO ROLLBACK
+24/11/2023 06:50:11PM DEBUG Calling on_field_start with no data
+24/11/2023 06:50:11PM DEBUG Calling on_field_name with data[0:10]
+24/11/2023 06:50:11PM DEBUG Calling on_field_data with data[11:19]
+24/11/2023 06:50:11PM DEBUG Calling on_field_end with no data
+24/11/2023 06:50:11PM DEBUG Calling on_field_start with no data
+24/11/2023 06:50:11PM DEBUG Calling on_field_name with data[20:28]
+24/11/2023 06:50:11PM DEBUG Calling on_field_data with data[29:35]
+24/11/2023 06:50:11PM DEBUG Calling on_field_end with no data
+24/11/2023 06:50:11PM DEBUG Calling on_field_start with no data
+24/11/2023 06:50:11PM DEBUG Calling on_field_name with data[36:44]
+24/11/2023 06:50:11PM DEBUG Calling on_field_data with data[45:49]
+24/11/2023 06:50:11PM DEBUG Calling on_field_end with no data
+24/11/2023 06:50:11PM DEBUG Calling on_end with no data
+24/11/2023 06:50:11PM INFO select pg_catalog.version()
+24/11/2023 06:50:11PM INFO [raw sql] ()
+24/11/2023 06:50:11PM INFO select current_schema()
+24/11/2023 06:50:11PM INFO [raw sql] ()
+24/11/2023 06:50:11PM INFO show standard_conforming_strings
+24/11/2023 06:50:11PM INFO [raw sql] ()
+24/11/2023 06:50:11PM INFO BEGIN (implicit)
+24/11/2023 06:50:11PM INFO SELECT login.id, login.username, login.password 
+FROM login 
+WHERE login.username = $1::VARCHAR
+24/11/2023 06:50:11PM INFO [generated in 0.00083s] ('Flexzy',)
+24/11/2023 06:50:11PM DEBUG detected 'bcrypt' backend, version '4.0.1'
+24/11/2023 06:50:11PM DEBUG 'bcrypt' backend lacks $2$ support, enabling workaround
+24/11/2023 06:50:11PM INFO ROLLBACK
+24/11/2023 06:50:37PM INFO BEGIN (implicit)
+24/11/2023 06:50:37PM INFO INSERT INTO login (username, password) VALUES ($1::VARCHAR, $2::VARCHAR) RETURNING login.id
+24/11/2023 06:50:37PM INFO [generated in 0.00059s] ('string', '$2b$12$DK1fwzrO.tU/Drc6FBhclel/3DfqWAQa98wciygOKowFs.h43SAK2')
+24/11/2023 06:50:37PM INFO COMMIT
+24/11/2023 06:51:01PM DEBUG Calling on_field_start with no data
+24/11/2023 06:51:01PM DEBUG Calling on_field_name with data[0:10]
+24/11/2023 06:51:01PM DEBUG Calling on_field_end with no data
+24/11/2023 06:51:01PM DEBUG Calling on_field_start with no data
+24/11/2023 06:51:01PM DEBUG Calling on_field_name with data[12:20]
+24/11/2023 06:51:01PM DEBUG Calling on_field_data with data[21:27]
+24/11/2023 06:51:01PM DEBUG Calling on_field_end with no data
+24/11/2023 06:51:01PM DEBUG Calling on_field_start with no data
+24/11/2023 06:51:01PM DEBUG Calling on_field_name with data[28:36]
+24/11/2023 06:51:01PM DEBUG Calling on_field_data with data[37:43]
+24/11/2023 06:51:01PM DEBUG Calling on_field_end with no data
+24/11/2023 06:51:01PM DEBUG Calling on_field_start with no data
+24/11/2023 06:51:01PM DEBUG Calling on_field_name with data[44:49]
+24/11/2023 06:51:01PM DEBUG Calling on_field_end with no data
+24/11/2023 06:51:01PM DEBUG Calling on_field_start with no data
+24/11/2023 06:51:01PM DEBUG Calling on_field_name with data[51:60]
+24/11/2023 06:51:01PM DEBUG Calling on_field_end with no data
+24/11/2023 06:51:01PM DEBUG Calling on_field_start with no data
+24/11/2023 06:51:01PM DEBUG Calling on_field_name with data[62:75]
+24/11/2023 06:51:01PM DEBUG Calling on_field_end with no data
+24/11/2023 06:51:01PM DEBUG Calling on_end with no data
+24/11/2023 06:51:01PM INFO BEGIN (implicit)
+24/11/2023 06:51:01PM INFO SELECT login.id, login.username, login.password 
+FROM login 
+WHERE login.username = $1::VARCHAR
+24/11/2023 06:51:01PM INFO [cached since 50.55s ago] ('string',)
+24/11/2023 06:51:02PM INFO ROLLBACK
+24/11/2023 06:53:07PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:53:07PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:53:07PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:53:07PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:53:14PM DEBUG Calling on_field_start with no data
+24/11/2023 06:53:14PM DEBUG Calling on_field_name with data[0:10]
+24/11/2023 06:53:14PM DEBUG Calling on_field_end with no data
+24/11/2023 06:53:14PM DEBUG Calling on_field_start with no data
+24/11/2023 06:53:14PM DEBUG Calling on_field_name with data[12:20]
+24/11/2023 06:53:14PM DEBUG Calling on_field_data with data[21:27]
+24/11/2023 06:53:14PM DEBUG Calling on_field_end with no data
+24/11/2023 06:53:14PM DEBUG Calling on_field_start with no data
+24/11/2023 06:53:14PM DEBUG Calling on_field_name with data[28:36]
+24/11/2023 06:53:14PM DEBUG Calling on_field_data with data[37:43]
+24/11/2023 06:53:14PM DEBUG Calling on_field_end with no data
+24/11/2023 06:53:14PM DEBUG Calling on_field_start with no data
+24/11/2023 06:53:14PM DEBUG Calling on_field_name with data[44:49]
+24/11/2023 06:53:14PM DEBUG Calling on_field_end with no data
+24/11/2023 06:53:14PM DEBUG Calling on_field_start with no data
+24/11/2023 06:53:14PM DEBUG Calling on_field_name with data[51:60]
+24/11/2023 06:53:14PM DEBUG Calling on_field_end with no data
+24/11/2023 06:53:14PM DEBUG Calling on_field_start with no data
+24/11/2023 06:53:14PM DEBUG Calling on_field_name with data[62:75]
+24/11/2023 06:53:14PM DEBUG Calling on_field_end with no data
+24/11/2023 06:53:14PM DEBUG Calling on_end with no data
+24/11/2023 06:53:14PM INFO select pg_catalog.version()
+24/11/2023 06:53:14PM INFO [raw sql] ()
+24/11/2023 06:53:14PM INFO select current_schema()
+24/11/2023 06:53:14PM INFO [raw sql] ()
+24/11/2023 06:53:14PM INFO show standard_conforming_strings
+24/11/2023 06:53:14PM INFO [raw sql] ()
+24/11/2023 06:53:14PM INFO BEGIN (implicit)
+24/11/2023 06:53:14PM INFO SELECT login.id, login.username, login.password 
+FROM login 
+WHERE login.username = $1::VARCHAR
+24/11/2023 06:53:14PM INFO [generated in 0.00132s] ('string',)
+24/11/2023 06:53:14PM DEBUG detected 'bcrypt' backend, version '4.0.1'
+24/11/2023 06:53:14PM DEBUG 'bcrypt' backend lacks $2$ support, enabling workaround
+24/11/2023 06:53:15PM INFO ROLLBACK
+24/11/2023 06:54:25PM DEBUG Calling on_field_start with no data
+24/11/2023 06:54:25PM DEBUG Calling on_field_name with data[0:10]
+24/11/2023 06:54:25PM DEBUG Calling on_field_end with no data
+24/11/2023 06:54:25PM DEBUG Calling on_field_start with no data
+24/11/2023 06:54:25PM DEBUG Calling on_field_name with data[12:20]
+24/11/2023 06:54:25PM DEBUG Calling on_field_data with data[21:27]
+24/11/2023 06:54:25PM DEBUG Calling on_field_end with no data
+24/11/2023 06:54:25PM DEBUG Calling on_field_start with no data
+24/11/2023 06:54:25PM DEBUG Calling on_field_name with data[28:36]
+24/11/2023 06:54:25PM DEBUG Calling on_field_data with data[37:43]
+24/11/2023 06:54:25PM DEBUG Calling on_field_end with no data
+24/11/2023 06:54:25PM DEBUG Calling on_field_start with no data
+24/11/2023 06:54:25PM DEBUG Calling on_field_name with data[44:49]
+24/11/2023 06:54:25PM DEBUG Calling on_field_end with no data
+24/11/2023 06:54:25PM DEBUG Calling on_field_start with no data
+24/11/2023 06:54:25PM DEBUG Calling on_field_name with data[51:60]
+24/11/2023 06:54:25PM DEBUG Calling on_field_end with no data
+24/11/2023 06:54:25PM DEBUG Calling on_field_start with no data
+24/11/2023 06:54:25PM DEBUG Calling on_field_name with data[62:75]
+24/11/2023 06:54:25PM DEBUG Calling on_field_end with no data
+24/11/2023 06:54:25PM DEBUG Calling on_end with no data
+24/11/2023 06:54:25PM INFO BEGIN (implicit)
+24/11/2023 06:54:25PM INFO SELECT login.id, login.username, login.password 
+FROM login 
+WHERE login.username = $1::VARCHAR
+24/11/2023 06:54:25PM INFO [cached since 70.57s ago] ('string',)
+24/11/2023 06:54:25PM INFO ROLLBACK
+24/11/2023 06:56:23PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:56:23PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:56:23PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:56:23PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:57:07PM DEBUG detected 'bcrypt' backend, version '4.0.1'
+24/11/2023 06:57:07PM DEBUG 'bcrypt' backend lacks $2$ support, enabling workaround
+24/11/2023 06:57:08PM INFO select pg_catalog.version()
+24/11/2023 06:57:08PM INFO [raw sql] ()
+24/11/2023 06:57:08PM INFO select current_schema()
+24/11/2023 06:57:08PM INFO [raw sql] ()
+24/11/2023 06:57:08PM INFO show standard_conforming_strings
+24/11/2023 06:57:08PM INFO [raw sql] ()
+24/11/2023 06:57:08PM INFO BEGIN (implicit)
+24/11/2023 06:57:08PM INFO INSERT INTO login (username, password) VALUES ($1::VARCHAR, $2::VARCHAR) RETURNING login.id
+24/11/2023 06:57:08PM INFO [generated in 0.00078s] ('Ray', '$2b$12$I6iEAhXQKqn5Y8P/8TOOKukgMWOGf5RV.3Y/fdkDz9Q925zbAxSti')
+24/11/2023 06:57:08PM INFO COMMIT
+24/11/2023 06:58:03PM DEBUG Calling on_field_start with no data
+24/11/2023 06:58:03PM DEBUG Calling on_field_name with data[0:10]
+24/11/2023 06:58:03PM DEBUG Calling on_field_end with no data
+24/11/2023 06:58:03PM DEBUG Calling on_field_start with no data
+24/11/2023 06:58:03PM DEBUG Calling on_field_name with data[12:20]
+24/11/2023 06:58:03PM DEBUG Calling on_field_data with data[21:24]
+24/11/2023 06:58:03PM DEBUG Calling on_field_end with no data
+24/11/2023 06:58:03PM DEBUG Calling on_field_start with no data
+24/11/2023 06:58:03PM DEBUG Calling on_field_name with data[25:33]
+24/11/2023 06:58:03PM DEBUG Calling on_field_data with data[34:37]
+24/11/2023 06:58:03PM DEBUG Calling on_field_end with no data
+24/11/2023 06:58:03PM DEBUG Calling on_field_start with no data
+24/11/2023 06:58:03PM DEBUG Calling on_field_name with data[38:43]
+24/11/2023 06:58:03PM DEBUG Calling on_field_end with no data
+24/11/2023 06:58:03PM DEBUG Calling on_field_start with no data
+24/11/2023 06:58:03PM DEBUG Calling on_field_name with data[45:54]
+24/11/2023 06:58:03PM DEBUG Calling on_field_end with no data
+24/11/2023 06:58:03PM DEBUG Calling on_field_start with no data
+24/11/2023 06:58:03PM DEBUG Calling on_field_name with data[56:69]
+24/11/2023 06:58:03PM DEBUG Calling on_field_end with no data
+24/11/2023 06:58:03PM DEBUG Calling on_end with no data
+24/11/2023 06:58:03PM INFO BEGIN (implicit)
+24/11/2023 06:58:03PM INFO SELECT login.id, login.username, login.password 
+FROM login 
+WHERE login.username = $1::VARCHAR
+24/11/2023 06:58:03PM INFO [generated in 0.00116s] ('Ray',)
+24/11/2023 06:58:03PM INFO ROLLBACK
+24/11/2023 06:58:59PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:58:59PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:58:59PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:58:59PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:59:01PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:59:01PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:59:01PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:59:01PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:59:28PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:59:28PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:59:28PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:59:28PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:59:33PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:59:33PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:59:33PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:59:34PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:59:42PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:59:42PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:59:42PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:59:42PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:59:48PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:59:48PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:59:48PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:59:48PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:59:50PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:59:50PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:59:50PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:59:50PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:59:53PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:59:53PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:59:53PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:59:53PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:59:56PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:59:56PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:59:56PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:59:56PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 06:59:57PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 06:59:57PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 06:59:57PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 06:59:57PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 07:00:04PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 07:00:04PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 07:00:04PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 07:00:04PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 07:00:05PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 07:00:05PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 07:00:05PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 07:00:06PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 07:00:08PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 07:00:08PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 07:00:08PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 07:00:08PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 07:00:10PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 07:00:10PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 07:00:10PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 07:00:10PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 07:00:12PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 07:00:12PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 07:00:12PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 07:00:12PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 07:00:21PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 07:00:21PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 07:00:21PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 07:00:21PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 07:00:57PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 07:00:57PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 07:00:57PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 07:00:57PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 07:01:04PM DEBUG Calling on_field_start with no data
+24/11/2023 07:01:04PM DEBUG Calling on_field_name with data[0:10]
+24/11/2023 07:01:04PM DEBUG Calling on_field_end with no data
+24/11/2023 07:01:04PM DEBUG Calling on_field_start with no data
+24/11/2023 07:01:04PM DEBUG Calling on_field_name with data[12:20]
+24/11/2023 07:01:04PM DEBUG Calling on_field_data with data[21:24]
+24/11/2023 07:01:04PM DEBUG Calling on_field_end with no data
+24/11/2023 07:01:04PM DEBUG Calling on_field_start with no data
+24/11/2023 07:01:04PM DEBUG Calling on_field_name with data[25:33]
+24/11/2023 07:01:04PM DEBUG Calling on_field_data with data[34:37]
+24/11/2023 07:01:04PM DEBUG Calling on_field_end with no data
+24/11/2023 07:01:04PM DEBUG Calling on_field_start with no data
+24/11/2023 07:01:04PM DEBUG Calling on_field_name with data[38:43]
+24/11/2023 07:01:04PM DEBUG Calling on_field_end with no data
+24/11/2023 07:01:04PM DEBUG Calling on_field_start with no data
+24/11/2023 07:01:04PM DEBUG Calling on_field_name with data[45:54]
+24/11/2023 07:01:04PM DEBUG Calling on_field_end with no data
+24/11/2023 07:01:04PM DEBUG Calling on_field_start with no data
+24/11/2023 07:01:04PM DEBUG Calling on_field_name with data[56:69]
+24/11/2023 07:01:04PM DEBUG Calling on_field_end with no data
+24/11/2023 07:01:04PM DEBUG Calling on_end with no data
+24/11/2023 07:01:04PM INFO select pg_catalog.version()
+24/11/2023 07:01:04PM INFO [raw sql] ()
+24/11/2023 07:01:04PM INFO select current_schema()
+24/11/2023 07:01:04PM INFO [raw sql] ()
+24/11/2023 07:01:04PM INFO show standard_conforming_strings
+24/11/2023 07:01:04PM INFO [raw sql] ()
+24/11/2023 07:01:04PM INFO BEGIN (implicit)
+24/11/2023 07:01:04PM INFO SELECT login.id, login.username, login.password 
+FROM login 
+WHERE login.username = $1::VARCHAR
+24/11/2023 07:01:04PM INFO [generated in 0.00250s] ('Ray',)
+24/11/2023 07:01:04PM DEBUG detected 'bcrypt' backend, version '4.0.1'
+24/11/2023 07:01:04PM DEBUG 'bcrypt' backend lacks $2$ support, enabling workaround
+24/11/2023 07:01:04PM INFO ROLLBACK
+24/11/2023 07:08:01PM DEBUG Calling on_field_start with no data
+24/11/2023 07:08:01PM DEBUG Calling on_field_name with data[0:10]
+24/11/2023 07:08:01PM DEBUG Calling on_field_end with no data
+24/11/2023 07:08:01PM DEBUG Calling on_field_start with no data
+24/11/2023 07:08:01PM DEBUG Calling on_field_name with data[12:20]
+24/11/2023 07:08:01PM DEBUG Calling on_field_data with data[21:24]
+24/11/2023 07:08:01PM DEBUG Calling on_field_end with no data
+24/11/2023 07:08:01PM DEBUG Calling on_field_start with no data
+24/11/2023 07:08:01PM DEBUG Calling on_field_name with data[25:33]
+24/11/2023 07:08:01PM DEBUG Calling on_field_data with data[34:37]
+24/11/2023 07:08:01PM DEBUG Calling on_field_end with no data
+24/11/2023 07:08:01PM DEBUG Calling on_field_start with no data
+24/11/2023 07:08:01PM DEBUG Calling on_field_name with data[38:43]
+24/11/2023 07:08:01PM DEBUG Calling on_field_end with no data
+24/11/2023 07:08:01PM DEBUG Calling on_field_start with no data
+24/11/2023 07:08:01PM DEBUG Calling on_field_name with data[45:54]
+24/11/2023 07:08:01PM DEBUG Calling on_field_end with no data
+24/11/2023 07:08:01PM DEBUG Calling on_field_start with no data
+24/11/2023 07:08:01PM DEBUG Calling on_field_name with data[56:69]
+24/11/2023 07:08:01PM DEBUG Calling on_field_end with no data
+24/11/2023 07:08:01PM DEBUG Calling on_end with no data
+24/11/2023 07:08:01PM INFO BEGIN (implicit)
+24/11/2023 07:08:01PM INFO SELECT login.id, login.username, login.password 
+FROM login 
+WHERE login.username = $1::VARCHAR
+24/11/2023 07:08:01PM INFO [cached since 416.9s ago] ('Ray',)
+24/11/2023 07:08:01PM INFO ROLLBACK
+24/11/2023 07:09:22PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 07:09:22PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 07:09:22PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 07:09:22PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 07:09:42PM DEBUG detected 'bcrypt' backend, version '4.0.1'
+24/11/2023 07:09:42PM DEBUG 'bcrypt' backend lacks $2$ support, enabling workaround
+24/11/2023 07:09:42PM INFO select pg_catalog.version()
+24/11/2023 07:09:42PM INFO [raw sql] ()
+24/11/2023 07:09:42PM INFO select current_schema()
+24/11/2023 07:09:42PM INFO [raw sql] ()
+24/11/2023 07:09:42PM INFO show standard_conforming_strings
+24/11/2023 07:09:42PM INFO [raw sql] ()
+24/11/2023 07:09:42PM INFO BEGIN (implicit)
+24/11/2023 07:09:42PM INFO INSERT INTO login (username, password) VALUES ($1::VARCHAR, $2::VARCHAR) RETURNING login.id
+24/11/2023 07:09:42PM INFO [generated in 0.00050s] ('string', '$2b$12$Hrq9peYP0q3D0ME/iItNBu6QcGsB7kHa4ULizVMV57rP.pwM.wU4y')
+24/11/2023 07:09:42PM INFO COMMIT
+24/11/2023 07:09:59PM DEBUG Calling on_field_start with no data
+24/11/2023 07:09:59PM DEBUG Calling on_field_name with data[0:10]
+24/11/2023 07:09:59PM DEBUG Calling on_field_end with no data
+24/11/2023 07:09:59PM DEBUG Calling on_field_start with no data
+24/11/2023 07:09:59PM DEBUG Calling on_field_name with data[12:20]
+24/11/2023 07:09:59PM DEBUG Calling on_field_data with data[21:27]
+24/11/2023 07:09:59PM DEBUG Calling on_field_end with no data
+24/11/2023 07:09:59PM DEBUG Calling on_field_start with no data
+24/11/2023 07:09:59PM DEBUG Calling on_field_name with data[28:36]
+24/11/2023 07:09:59PM DEBUG Calling on_field_data with data[37:43]
+24/11/2023 07:09:59PM DEBUG Calling on_field_end with no data
+24/11/2023 07:09:59PM DEBUG Calling on_field_start with no data
+24/11/2023 07:09:59PM DEBUG Calling on_field_name with data[44:49]
+24/11/2023 07:09:59PM DEBUG Calling on_field_end with no data
+24/11/2023 07:09:59PM DEBUG Calling on_field_start with no data
+24/11/2023 07:09:59PM DEBUG Calling on_field_name with data[51:60]
+24/11/2023 07:09:59PM DEBUG Calling on_field_end with no data
+24/11/2023 07:09:59PM DEBUG Calling on_field_start with no data
+24/11/2023 07:09:59PM DEBUG Calling on_field_name with data[62:75]
+24/11/2023 07:09:59PM DEBUG Calling on_field_end with no data
+24/11/2023 07:09:59PM DEBUG Calling on_end with no data
+24/11/2023 07:09:59PM INFO BEGIN (implicit)
+24/11/2023 07:09:59PM INFO SELECT login.id, login.username, login.password 
+FROM login 
+WHERE login.username = $1::VARCHAR
+24/11/2023 07:09:59PM INFO [generated in 0.00071s] ('string',)
+24/11/2023 07:09:59PM INFO ROLLBACK
+24/11/2023 07:10:23PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 07:10:23PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 07:10:23PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 07:10:23PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 07:10:25PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 07:10:25PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 07:10:25PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 07:10:25PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 07:10:36PM DEBUG loaded lazy attr 'SafeConfigParser': <class 'configparser.ConfigParser'>
+24/11/2023 07:10:36PM DEBUG loaded lazy attr 'NativeStringIO': <class '_io.StringIO'>
+24/11/2023 07:10:36PM DEBUG loaded lazy attr 'BytesIO': <class '_io.BytesIO'>
+24/11/2023 07:10:36PM DEBUG registered 'bcrypt' handler: <class 'passlib.handlers.bcrypt.bcrypt'>
+24/11/2023 07:12:40PM DEBUG detected 'bcrypt' backend, version '4.0.1'
+24/11/2023 07:12:40PM DEBUG 'bcrypt' backend lacks $2$ support, enabling workaround
+24/11/2023 07:12:41PM INFO select pg_catalog.version()
+24/11/2023 07:12:41PM INFO [raw sql] ()
+24/11/2023 07:12:41PM INFO select current_schema()
+24/11/2023 07:12:41PM INFO [raw sql] ()
+24/11/2023 07:12:41PM INFO show standard_conforming_strings
+24/11/2023 07:12:41PM INFO [raw sql] ()
+24/11/2023 07:12:41PM INFO BEGIN (implicit)
+24/11/2023 07:12:41PM INFO INSERT INTO login (username, password) VALUES ($1::VARCHAR, $2::VARCHAR) RETURNING login.id
+24/11/2023 07:12:41PM INFO [generated in 0.00042s] ('Ama', '$2b$12$5dZHhwPGty2mGokXb/daROFXAjcdffzCqZdwcuaCopT7TXUypPSWe')
+24/11/2023 07:12:41PM INFO COMMIT
+24/11/2023 07:13:01PM DEBUG Calling on_field_start with no data
+24/11/2023 07:13:01PM DEBUG Calling on_field_name with data[0:10]
+24/11/2023 07:13:01PM DEBUG Calling on_field_end with no data
+24/11/2023 07:13:01PM DEBUG Calling on_field_start with no data
+24/11/2023 07:13:01PM DEBUG Calling on_field_name with data[12:20]
+24/11/2023 07:13:01PM DEBUG Calling on_field_data with data[21:24]
+24/11/2023 07:13:01PM DEBUG Calling on_field_end with no data
+24/11/2023 07:13:01PM DEBUG Calling on_field_start with no data
+24/11/2023 07:13:01PM DEBUG Calling on_field_name with data[25:33]
+24/11/2023 07:13:01PM DEBUG Calling on_field_data with data[34:37]
+24/11/2023 07:13:01PM DEBUG Calling on_field_end with no data
+24/11/2023 07:13:01PM DEBUG Calling on_field_start with no data
+24/11/2023 07:13:01PM DEBUG Calling on_field_name with data[38:43]
+24/11/2023 07:13:01PM DEBUG Calling on_field_end with no data
+24/11/2023 07:13:01PM DEBUG Calling on_field_start with no data
+24/11/2023 07:13:01PM DEBUG Calling on_field_name with data[45:54]
+24/11/2023 07:13:01PM DEBUG Calling on_field_end with no data
+24/11/2023 07:13:01PM DEBUG Calling on_field_start with no data
+24/11/2023 07:13:01PM DEBUG Calling on_field_name with data[56:69]
+24/11/2023 07:13:01PM DEBUG Calling on_field_end with no data
+24/11/2023 07:13:01PM DEBUG Calling on_end with no data
+24/11/2023 07:13:01PM INFO BEGIN (implicit)
+24/11/2023 07:13:01PM INFO SELECT login.id, login.username, login.password 
+FROM login 
+WHERE login.username = $1::VARCHAR
+24/11/2023 07:13:01PM INFO [generated in 0.00205s] ('Ama',)
+24/11/2023 07:13:01PM INFO ROLLBACK
+24/11/2023 07:13:23PM DEBUG Calling on_field_start with no data
+24/11/2023 07:13:23PM DEBUG Calling on_field_name with data[0:10]
+24/11/2023 07:13:23PM DEBUG Calling on_field_data with data[11:19]
+24/11/2023 07:13:23PM DEBUG Calling on_field_end with no data
+24/11/2023 07:13:23PM DEBUG Calling on_field_start with no data
+24/11/2023 07:13:23PM DEBUG Calling on_field_name with data[20:28]
+24/11/2023 07:13:23PM DEBUG Calling on_field_data with data[29:32]
+24/11/2023 07:13:23PM DEBUG Calling on_field_end with no data
+24/11/2023 07:13:23PM DEBUG Calling on_field_start with no data
+24/11/2023 07:13:23PM DEBUG Calling on_field_name with data[33:41]
+24/11/2023 07:13:23PM DEBUG Calling on_field_data with data[42:45]
+24/11/2023 07:13:23PM DEBUG Calling on_field_end with no data
+24/11/2023 07:13:23PM DEBUG Calling on_end with no data
+24/11/2023 07:13:23PM INFO BEGIN (implicit)
+24/11/2023 07:13:23PM INFO SELECT login.id, login.username, login.password 
+FROM login 
+WHERE login.username = $1::VARCHAR
+24/11/2023 07:13:23PM INFO [cached since 21.95s ago] ('Ama',)
+24/11/2023 07:13:23PM INFO ROLLBACK
